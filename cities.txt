@@ -1,0 +1,853 @@
+Aleksandrów Kujawski	18.42	52.53	kujawsko-pomorskie	7.23	12487	
+Aleksandrów Łódzki	19.19	51.49	łódzkie	13.82	21224	
+Alwernia	19.32	50.04	małopolskie	8.88	3435	
+Andrychów	19.20	49.52	małopolskie	10.33	20993	
+Annopol	21.52	50.53	lubelskie	7.73	2624	
+Augustów	22.58	53.51	podlaskie	80.9	30482	
+Babimost	15.50	52.09	lubuskie	3.65	3999	
+Baborów	17.59	50.09	opolskie	11.86	3009	
+Baranów Sandomierski	21.33	50.30	podkarpackie	9.15	1463	
+Barcin	17.57	52.52	kujawsko-pomorskie	3.7	7655	
+Barczewo	20.41	53.50	warmińsko-mazurskie	4.58	7280	
+Bardo	16.45	50.31	dolnośląskie	4.71	2705	
+Barlinek	15.13	52.59	zachodniopomorskie	17.55	14180	
+Bartoszyce	20.48	54.15	warmińsko-mazurskie	11.79	24432	
+Barwice	16.21	53.44	zachodniopomorskie	7.52	3800	
+Bełchatów	19.22	51.22	łódzkie	34.64	59305	
+Bełżyce	22.17	51.10	lubelskie	23.46	6700	
+Biała Piska	22.04	53.37	warmińsko-mazurskie	3.24	4124	
+Biała Podlaska	23.07	52.02	lubelskie	49.4	57471	
+Biała Rawska	20.29	51.48	łódzkie	9.53	3237	
+Białogard	15.59	54.00	zachodniopomorskie	25.73	24571	
+Biały Bór	16.50	53.44	zachodniopomorskie	12.82	2210	
+Białystok	23.10	53.08	podlaskie	102.13	295459	
+Biecz	21.16	49.44	małopolskie	17.71	4728	
+Bielawa	16.37	50.42	dolnośląskie	36.21	30987	
+Bielsk Podlaski	23.12	52.46	podlaskie	27.01	26249	
+Bielsko-Biała	19.04	49.50	śląskie	124.51	173013	
+Bierutów	17.33	51.07	dolnośląskie	8.36	4980	
+Bieżuń	19.52	52.57	mazowieckie	12.07	1890	
+Bisztynek	20.54	54.05	warmińsko-mazurskie	2.16	2477	
+Biłgoraj	22.43	50.32	lubelskie	21.1	26935	
+Blachownia	18.58	50.47	śląskie	36.66	9830	
+Bobolice	16.35	53.57	zachodniopomorskie	4.77	4204	
+Bobowa	20.57	49.43	małopolskie	7.18	3006	
+Bochnia	20.25	49.58	małopolskie	29.87	30104	
+Bodzentyn	20.57	50.57	świętokrzyskie	8.65	2255	
+Bogatynia	14.57	50.54	dolnośląskie	59.88	18299	
+Boguchwała	21.57	49.59	podkarpackie	9.11	5905	
+Boguszów-Gorce	16.12	50.46	dolnośląskie	27.02	16055	
+Bojanowo	16.45	51.42	wielkopolskie	2.34	2975	
+Bolków	16.06	50.55	dolnośląskie	7.68	5253	
+Borek Wielkopolski	17.15	51.55	wielkopolskie	6.29	2538	
+Braniewo	19.50	54.23	warmińsko-mazurskie	12.41	17281	
+Brańsk	22.50	52.45	podlaskie	32.43	3854	
+Brok	21.51	52.42	mazowieckie	28.06	1984	
+Brusy	17.44	53.53	pomorskie	5.2	5093	
+Brwinów	20.43	52.08	mazowieckie	10.1	13178	
+Brzeg	17.29	50.52	opolskie	14.61	36675	
+Brzeg Dolny	16.43	51.16	dolnośląskie	17.2	12458	
+Brzesko	20.37	49.58	małopolskie	11.83	17090	
+Brzeszcze	19.09	49.59	małopolskie	19.04	11560	
+Brześć Kujawski	18.53	52.37	kujawsko-pomorskie	7.04	4690	
+Brzostek	21.25	49.53	podkarpackie	8.76	2716	
+Brzozów	22.02	49.42	podkarpackie	11.46	7548	
+Buk	16.31	52.22	wielkopolskie	2.96	6188	
+Bukowno	19.26	50.16	małopolskie	64.59	10336	
+Bychawa	22.33	51.01	lubelskie	6.69	5159	
+Byczyna	18.13	51.07	opolskie	5.79	3678	
+Bydgoszcz	18.00	53.07	kujawsko-pomorskie	175.98	357652	
+Bystrzyca Kłodzka	16.38	50.18	dolnośląskie	10.74	10389	
+Bytom	18.54	50.23	śląskie	69.44	172306	
+Bytom Odrzański	15.50	51.44	lubuskie	2.3	4420	
+Bytów	17.30	54.10	pomorskie	8.72	17011	
+Będzin	19.08	50.19	śląskie	37.37	58205	
+Błaszki	18.26	51.39	łódzkie	1.62	2241	
+Błażowa	22.06	49.54	podkarpackie	4.23	2188	
+Błonie	20.36	52.12	mazowieckie	9.09	12479	
+Cedynia	14.12	52.53	zachodniopomorskie	1.67	1631	
+Chełm	23.29	51.08	lubelskie	35.28	64855	
+Chełmek	19.14	50.06	małopolskie	8.27	9198	
+Chełmno	18.26	53.21	kujawsko-pomorskie	13.56	20434	
+Chełmża	18.36	53.12	kujawsko-pomorskie	7.84	14905	
+Chmielnik	20.45	50.37	świętokrzyskie	7.8	3877	
+Chocianów	15.54	51.25	dolnośląskie	9	8122	
+Chociwel	15.19	53.27	zachodniopomorskie	3.67	3237	
+Chocz	17.53	51.58	wielkopolskie	6.88	1808	
+Chodecz	19.02	52.24	kujawsko-pomorskie	1.39	1901	
+Chodzież	16.55	52.59	wielkopolskie	12.77	19299	
+Chojna	14.25	52.58	zachodniopomorskie	12.58	7382	
+Chojnice	17.33	53.42	pomorskie	21.04	40056	
+Chojnów	15.56	51.17	dolnośląskie	5.32	13972	
+Choroszcz	22.59	53.09	podlaskie	16.79	5759	
+Chorzele	20.53	53.16	mazowieckie	17.51	2972	
+Chorzów	18.57	50.18	śląskie	33.24	110337	
+Choszczno	15.24	53.10	zachodniopomorskie	9.58	15575	
+Chęciny	20.27	50.48	świętokrzyskie	14.13	4433	
+Ciechanowiec	22.30	52.41	podlaskie	19.53	4812	
+Ciechanów	20.38	52.52	mazowieckie	32.78	44585	
+Ciechocinek	18.47	52.53	kujawsko-pomorskie	15.26	10719	
+Cieszanów	23.08	50.14	podkarpackie	15.06	1985	
+Cieszyn	18.38	49.45	śląskie	28.61	35685	
+Ciężkowice	20.58	49.48	małopolskie	9.99	2496	
+Cybinka	14.48	52.12	lubuskie	5.29	2778	
+Czaplinek	16.14	53.33	zachodniopomorskie	13.62	7201	
+Czarna Białostocka	23.18	53.18	podlaskie	14.28	9594	
+Czarne	16.56	53.42	pomorskie	46.43	6052	
+Czarnków	16.34	52.54	wielkopolskie	10.04	11139	
+Czchów	20.41	49.50	małopolskie	14.09	2364	
+Czechowice-Dziedzice	19.01	49.50	śląskie	32.91	35632	
+Czempiń	16.45	52.08	wielkopolskie	3.32	5278	
+Czerniejewo	17.29	52.26	wielkopolskie	10.19	2637	
+Czersk	17.58	53.48	pomorskie	9.73	10030	
+Czerwieńsk	15.26	52.01	lubuskie	9.36	4159	
+Częstochowa	19.07	50.48	śląskie	159.71	230123	
+Człopa	16.06	53.05	zachodniopomorskie	6.27	2345	
+Człuchów	17.21	53.41	pomorskie	12.78	14224	
+Daleszyce	20.48	50.48	świętokrzyskie	15.5	2915	
+Darłowo	16.24	54.25	zachodniopomorskie	20.21	14059	
+Debrzno	17.14	53.33	pomorskie	7.51	5185	
+Dobczyce	20.06	49.53	małopolskie	12.97	6449	
+Dobiegniew	15.45	52.58	lubuskie	5.69	3125	
+Dobre Miasto	20.24	53.59	warmińsko-mazurskie	4.86	10497	
+Dobrodzień	18.27	50.44	opolskie	19.53	3773	
+Dobrzany	15.25	53.21	zachodniopomorskie	5.34	2352	
+Dobrzyca	17.37	51.52	wielkopolskie	19.7	3167	
+Dobrzyń nad Wisłą	19.20	52.39	kujawsko-pomorskie	5.41	2256	
+Dolsk	17.04	51.59	wielkopolskie	6.2	1575	
+Drawno	15.45	53.13	zachodniopomorskie	5.03	2340	
+Drawsko Pomorskie	15.48	53.32	zachodniopomorskie	22.33	11828	
+Drezdenko	15.49	52.51	lubuskie	10.72	10388	
+Drobin	19.59	52.44	mazowieckie	9.65	2963	
+Drohiczyn	22.39	52.24	podlaskie	15.69	2118	
+Drzewica	20.28	51.27	łódzkie	4.81	3984	
+Dukla	21.41	49.33	podkarpackie	5.48	2122	
+Duszniki-Zdrój	16.23	50.24	dolnośląskie	22.28	4837	
+Dynów	22.14	49.49	podkarpackie	24.55	6178	
+Działdowo	20.11	53.14	warmińsko-mazurskie	11.47	21489	
+Działoszyce	20.21	50.22	świętokrzyskie	1.92	964	
+Działoszyn	18.52	51.07	łódzkie	4.94	6147	
+Dzierzgoń	19.21	53.56	pomorskie	3.9	5524	
+Dzierżoniów	16.38	50.43	dolnośląskie	20.07	34168	
+Dziwnów	14.45	54.02	zachodniopomorskie	4.97	2724	
+Dąbrowa Białostocka	23.21	53.39	podlaskie	22.64	5796	
+Dąbrowa Górnicza	19.16	50.19	śląskie	188.73	123376	
+Dąbrowa Tarnowska	20.59	50.11	małopolskie	23.07	11881	
+Dębica	21.25	50.03	podkarpackie	33.83	46568	
+Dęblin	21.52	51.34	lubelskie	38.33	16893	
+Elbląg	19.24	54.10	warmińsko-mazurskie	79.82	122368	
+Ełk	22.21	53.29	warmińsko-mazurskie	21.05	60103	
+Frampol	22.41	50.41	lubelskie	4.67	1457	
+Frombork	19.41	54.21	warmińsko-mazurskie	7.59	2437	
+Garwolin	21.38	51.54	mazowieckie	22.08	17174	
+Gdańsk	18.38	54.22	pomorskie	261.96	461489	
+Gdynia	18.32	54.32	pomorskie	135.14	247820	
+Giżycko	21.47	54.02	warmińsko-mazurskie	13.72	29932	
+Glinojeck	20.17	52.49	mazowieckie	7.37	3113	
+Gliwice	18.40	50.17	śląskie	133.88	184415	
+Gniew	18.49	53.51	pomorskie	6.04	6898	
+Gniewkowo	18.25	52.54	kujawsko-pomorskie	9.18	7278	
+Gniezno	17.36	52.32	wielkopolskie	40.6	69686	
+Gogolin	18.02	50.30	opolskie	20.35	6529	
+Golczewo	14.58	53.59	zachodniopomorskie	7.42	2725	
+Goleniów	14.49	53.33	zachodniopomorskie	11.78	22747	
+Golina	18.06	52.15	wielkopolskie	3.52	4498	
+Golub-Dobrzyń	19.03	53.07	kujawsko-pomorskie	7.5	12879	
+Goniądz	22.44	53.29	podlaskie	4.28	1892	
+Gorlice	21.10	49.40	małopolskie	23.53	28255	
+Gorzów Wielkopolski	15.14	52.44	lubuskie	85.72	124145	
+Gorzów Śląski	18.26	51.02	opolskie	18.54	2508	
+Gostynin	19.28	52.25	mazowieckie	32.4	18947	
+Gostyń	17.01	51.53	wielkopolskie	11.09	20237	
+Gozdnica	15.06	51.26	lubuskie	23.88	3228	
+Gołańcz	17.18	52.57	wielkopolskie	12.64	3397	
+Gołdap	22.18	54.18	warmińsko-mazurskie	17.2	13748	
+Gościno	15.38	54.03	zachodniopomorskie	5.7	2424	
+Grabów nad Prosną	18.07	51.30	wielkopolskie	2.58	1969	
+Grajewo	22.27	53.39	podlaskie	18.94	22243	
+Grodków	17.23	50.42	opolskie	9.88	8816	
+Grodzisk Mazowiecki	20.37	52.06	mazowieckie	13.19	30180	
+Grodzisk Wielkopolski	16.22	52.14	wielkopolskie	18.21	14392	
+Grudziądz	18.46	53.29	kujawsko-pomorskie	57.76	97176	
+Grybów	20.57	49.38	małopolskie	16.95	6063	
+Gryfice	15.12	53.54	zachodniopomorskie	12.4	16853	
+Gryfino	14.29	53.15	zachodniopomorskie	9.58	21565	
+Gryfów Śląski	15.25	51.02	dolnośląskie	6.63	6863	
+Grójec	20.52	51.52	mazowieckie	8.57	16534	
+Gubin	14.43	51.57	lubuskie	20.68	16874	
+Góra	16.33	51.40	dolnośląskie	13.65	12316	
+Góra Kalwaria	21.13	51.59	mazowieckie	13.67	11658	
+Gąbin	19.43	52.24	mazowieckie	27.95	4183	
+Głogów	16.05	51.39	dolnośląskie	35.11	68836	
+Głogówek	17.51	50.21	opolskie	22.06	5702	
+Głowno	19.43	51.58	łódzkie	19.84	14759	
+Głubczyce	17.50	50.12	opolskie	12.54	12911	
+Głuchołazy	17.23	50.19	opolskie	6.83	14092	
+Głuszyca	16.22	50.41	dolnośląskie	16.21	6583	
+Hajnówka	23.35	52.45	podlaskie	21.29	21422	
+Halinów	21.21	52.14	mazowieckie	2.84	3675	
+Hel	18.48	54.36	pomorskie	21.72	3594	
+Hrubieszów	23.53	50.48	lubelskie	33.03	18450	
+Inowrocław	18.15	52.48	kujawsko-pomorskie	30.42	74564	
+Iwonicz-Zdrój	21.48	49.34	podkarpackie	5.89	1839	
+Izbica Kujawska	18.46	52.25	kujawsko-pomorskie	2.24	2730	
+Iława	19.34	53.36	warmińsko-mazurskie	21.88	33344	
+Iłowa	15.12	51.30	lubuskie	9.18	3996	
+Iłża	21.15	51.10	mazowieckie	15.83	4991	
+Ińsko	15.32	53.26	zachodniopomorskie	7.48	2031	
+Jabłonowo Pomorskie	19.04	53.24	kujawsko-pomorskie	3.35	3848	
+Janikowo	18.06	52.45	kujawsko-pomorskie	9.51	9034	
+Janowiec Wielkopolski	17.29	52.45	kujawsko-pomorskie	3.04	4023	
+Janów Lubelski	22.25	50.42	lubelskie	14.8	12110	
+Jaraczewo	17.18	51.58	wielkopolskie	-	1392	
+Jarosław	22.42	50.02	podkarpackie	34.61	38796	
+Jasień	15.01	51.45	lubuskie	4.79	4449	
+Jastarnia	18.40	54.42	pomorskie	7.8	3866	
+Jastrowie	16.49	53.26	wielkopolskie	72.3	8703	
+Jastrzębie-Zdrój	18.35	49.57	śląskie	85.33	90794	
+Jasło	21.28	49.44	podkarpackie	36.52	36260	
+Jawor	16.12	51.04	dolnośląskie	18.8	23767	
+Jaworzno	19.16	50.13	śląskie	152.59	93331	
+Jaworzyna Śląska	16.26	50.55	dolnośląskie	4.34	5191	
+Jedlicze	21.38	49.43	podkarpackie	10.6	5775	
+Jedlina-Zdrój	16.21	50.43	dolnośląskie	17.45	4975	
+Jedwabne	22.18	53.17	podlaskie	4.54	1673	
+Jelcz-Laskowice	17.19	51.01	dolnośląskie	17.06	15910	
+Jelenia Góra	15.44	50.54	dolnośląskie	109.22	81408	
+Jeziorany	20.45	53.58	warmińsko-mazurskie	3.41	3319	
+Jordanów	19.50	49.39	małopolskie	21.03	5305	
+Jutrosin	17.11	51.38	wielkopolskie	1.62	1928	
+Jędrzejów	20.18	50.39	świętokrzyskie	11.37	15698	
+Kalety	18.54	50.34	śląskie	76.29	8626	
+Kalisz	18.06	51.46	wielkopolskie	69.42	103373	
+Kalisz Pomorski	15.54	53.17	zachodniopomorskie	11.96	4356	
+Kalwaria Zebrzydowska	19.40	49.53	małopolskie	5.5	4603	
+Kamienna Góra	16.02	50.47	dolnośląskie	18.04	19889	
+Kamień Krajeński	17.31	53.32	kujawsko-pomorskie	3.65	2398	
+Kamień Pomorski	14.46	53.58	zachodniopomorskie	10.74	9020	
+Kamieńsk	19.30	51.13	łódzkie	11.99	2875	
+Karczew	21.15	52.04	mazowieckie	28.12	10082	
+Kargowa	15.52	52.04	lubuskie	4.55	3768	
+Karlino	15.53	54.02	zachodniopomorskie	9.4	5989	
+Karpacz	15.44	50.47	dolnośląskie	37.99	4921	
+Kartuzy	18.12	54.20	pomorskie	6.8	14840	
+Katowice	19.00	50.15	śląskie	164.64	301834	
+Kazimierz Dolny	21.58	51.19	lubelskie	30.44	2599	
+Kazimierza Wielka	20.29	50.16	świętokrzyskie	5.33	5725	
+Kałuszyn	21.49	52.13	mazowieckie	12.3	2938	
+Kańczuga	22.25	49.59	podkarpackie	7.6	3237	
+Kcynia	17.29	52.59	kujawsko-pomorskie	6.84	4735	
+Kielce	20.37	50.53	świętokrzyskie	109.65	198857	
+Kietrz	18.01	50.05	opolskie	18.74	6167	
+Kisielice	19.15	53.36	warmińsko-mazurskie	3.37	2131	
+Kleczew	18.11	52.22	wielkopolskie	7.8	4230	
+Kleszczele	23.20	52.35	podlaskie	46.71	1321	
+Kluczbork	18.13	50.58	opolskie	12.35	24410	
+Knurów	18.41	50.13	śląskie	33.95	38859	
+Knyszyn	22.55	53.18	podlaskie	23.68	2853	
+Kobylin	17.14	51.42	wielkopolskie	4.87	3263	
+Kobyłka	21.11	52.21	mazowieckie	19.64	21341	
+Kock	22.27	51.39	lubelskie	16.78	3389	
+Kolbuszowa	21.47	50.14	podkarpackie	7.94	9270	
+Kolonowskie	18.23	50.39	opolskie	55.7	3361	
+Koluszki	19.49	51.45	łódzkie	9.9	13370	
+Koniecpol	19.41	50.47	śląskie	36.92	6142	
+Konin	18.16	52.13	wielkopolskie	82.2	76547	
+Konstancin-Jeziorna	21.08	52.05	mazowieckie	17.74	17311	
+Konstantynów Łódzki	19.20	51.45	łódzkie	27.25	17857	
+Koprzywnica	21.35	50.36	świętokrzyskie	17.9	2539	
+Korfantów	17.36	50.29	opolskie	10.23	1881	
+Koronowo	17.56	53.19	kujawsko-pomorskie	28.15	11384	
+Korsze	21.08	54.10	warmińsko-mazurskie	4.03	4514	
+Koszalin	16.11	54.11	zachodniopomorskie	98.34	108605	
+Kosów Lacki	22.09	52.35	mazowieckie	11.57	2152	
+Kowal	19.09	52.32	kujawsko-pomorskie	4.68	3538	
+Kowalewo Pomorskie	18.54	53.10	kujawsko-pomorskie	4.45	4266	
+Kowary	15.49	50.48	dolnośląskie	37.39	11408	
+Koziegłowy	19.10	50.36	śląskie	26.71	2449	
+Kozienice	21.33	51.35	mazowieckie	10.45	18064	
+Kołaczyce	21.26	49.48	podkarpackie	7.15	1437	
+Koło	18.39	52.12	wielkopolskie	13.85	22834	
+Kołobrzeg	15.34	54.10	zachodniopomorskie	25.67	46720	
+Końskie	20.25	51.12	świętokrzyskie	17.7	20059	
+Kościan	16.39	52.05	wielkopolskie	8.79	23949	
+Kościerzyna	17.58	54.07	pomorskie	15.86	23738	
+Krajenka	16.59	53.23	wielkopolskie	3.76	3797	
+Kraków	19.57	50.03	małopolskie	326.85	761873	
+Krapkowice	17.58	50.28	opolskie	21.01	16851	
+Krasnobród	23.14	50.33	lubelskie	6.99	3108	
+Krasnystaw	23.11	50.59	lubelskie	42.13	19343	
+Kraśnik	22.14	50.55	lubelskie	26.1	35508	
+Krobia	16.59	51.47	wielkopolskie	7.05	4236	
+Krosno	21.46	49.42	podkarpackie	43.5	46934	
+Krosno Odrzańskie	15.06	52.02	lubuskie	8.15	11799	
+Krotoszyn	17.26	51.41	wielkopolskie	22.54	29284	
+Krośniewice	19.10	52.16	łódzkie	4.18	4498	
+Kruszwica	18.19	52.41	kujawsko-pomorskie	6.64	9039	
+Krynki	23.47	53.16	podlaskie	3.83	2515	
+Krzanowice	18.08	50.01	śląskie	3.08	2209	
+Krzepice	18.44	50.58	śląskie	27.66	4462	
+Krzeszowice	19.38	50.08	małopolskie	16.97	10173	
+Krzywiń	16.49	51.58	wielkopolskie	2.27	1635	
+Książ Wielkopolski	17.14	52.03	wielkopolskie	1.96	2776	
+Kudowa-Zdrój	16.15	50.27	dolnośląskie	33.9	10249	
+Kunów	21.17	50.58	świętokrzyskie	7.26	3060	
+Kutno	19.22	52.14	łódzkie	33.59	45371	
+Kuźnia Raciborska	18.20	50.12	śląskie	31.49	5451	
+Kwidzyn	18.56	53.44	pomorskie	21.54	38757	
+Kórnik	17.05	52.15	wielkopolskie	5.99	7684	
+Kąty Wrocławskie	16.46	51.02	dolnośląskie	8.61	6549	
+Kędzierzyn-Koźle	18.12	50.21	opolskie	123.71	62840	
+Kępice	16.52	54.15	pomorskie	6.11	3737	
+Kępno	17.59	51.17	wielkopolskie	7.79	14559	
+Kętrzyn	21.23	54.05	warmińsko-mazurskie	10.35	27924	
+Kęty	19.13	49.53	małopolskie	23.05	19062	
+Kłecko	17.26	52.37	wielkopolskie	9.62	2681	
+Kłobuck	18.56	50.55	śląskie	47.46	13133	
+Kłodzko	16.39	50.27	dolnośląskie	24.84	27792	
+Legionowo	20.56	52.25	mazowieckie	13.54	54272	
+Legnica	16.10	51.13	dolnośląskie	56.29	101343	
+Lesko	22.20	49.28	podkarpackie	15.33	5615	
+Leszno	16.34	51.51	wielkopolskie	31.86	64616	
+Lewin Brzeski	17.37	50.45	opolskie	11.64	5940	
+Leśna	15.16	51.01	dolnośląskie	8.56	4648	
+Leśnica	18.12	50.26	opolskie	14.5	2690	
+Leżajsk	22.26	50.16	podkarpackie	20.58	14252	
+Libiąż	19.19	50.07	małopolskie	35.85	17284	
+Lidzbark	19.49	53.16	warmińsko-mazurskie	5.68	8092	
+Lidzbark Warmiński	20.35	54.07	warmińsko-mazurskie	14.35	16332	
+Limanowa	20.25	49.43	małopolskie	18.7	15078	
+Lipiany	14.52	53.00	zachodniopomorskie	5.54	4045	
+Lipno	19.10	52.51	kujawsko-pomorskie	10.99	14772	
+Lipsk	23.24	53.44	podlaskie	4.98	2440	
+Lipsko	21.40	51.09	mazowieckie	15.7	5732	
+Lubaczów	23.08	50.09	podkarpackie	25.73	12416	
+Lubartów	22.37	51.27	lubelskie	13.91	22463	
+Lubawa	19.45	53.30	warmińsko-mazurskie	16.84	10098	
+Lubawka	16.00	50.42	dolnośląskie	22.44	6236	
+Lubań	15.18	51.07	dolnośląskie	16.12	21785	
+Lubień Kujawski	19.10	52.24	kujawsko-pomorskie	2.31	1413	
+Lubin	16.12	51.24	dolnośląskie	40.77	73658	
+Lublin	22.34	51.14	lubelskie	147.47	341722	
+Lubliniec	18.41	50.40	śląskie	89.36	24182	
+Lubniewice	15.15	52.31	lubuskie	12.11	2076	
+Lubomierz	15.31	51.01	dolnośląskie	8.05	1949	
+Luboń	16.53	52.21	wielkopolskie	13.51	30813	
+Lubraniec	18.50	52.33	kujawsko-pomorskie	1.97	3139	
+Lubsko	14.58	51.47	lubuskie	12.51	14451	
+Lubycza Królewska	23.31	50.20	lubelskie	-	1800	
+Lwówek	16.11	52.27	wielkopolskie	3.16	3042	
+Lwówek Śląski	15.35	51.07	dolnośląskie	16.65	9115	
+Lądek-Zdrój	16.52	50.21	dolnośląskie	20.32	5873	
+Lębork	17.45	54.33	pomorskie	17.86	35443	
+Maków Mazowiecki	21.06	52.52	mazowieckie	10.28	10077	
+Maków Podhalański	19.39	49.44	małopolskie	20.12	5980	
+Malbork	19.02	54.02	pomorskie	17.16	38950	
+Margonin	17.05	52.58	wielkopolskie	5.15	3027	
+Marki	21.06	52.20	mazowieckie	26.15	29722	
+Małogoszcz	20.16	50.49	świętokrzyskie	9.68	3872	
+Małomice	15.27	51.33	lubuskie	5.37	3571	
+Miastko	16.58	54.00	pomorskie	5.68	10866	
+Michałowo	23.37	53.02	podlaskie	2.15	3153	
+Miechów	20.02	50.21	małopolskie	15.49	11830	
+Miejska Górka	16.58	51.39	wielkopolskie	3.14	3253	
+Mielec	21.26	50.17	podkarpackie	46.89	60827	
+Mieroszów	16.11	50.40	dolnośląskie	10.31	4248	
+Mieszkowice	14.29	52.47	zachodniopomorskie	4.73	3594	
+Mikołajki	21.35	53.48	warmińsko-mazurskie	9.32	3849	
+Mikołów	18.54	50.10	śląskie	79.21	39795	
+Mikstat	17.58	51.32	wielkopolskie	2.52	1884	
+Milanówek	20.39	52.07	mazowieckie	13.44	16353	
+Milicz	17.17	51.32	dolnośląskie	13.5	11669	
+Mirosławiec	16.05	53.20	zachodniopomorskie	2.17	3040	
+Mirsk	15.23	50.58	dolnośląskie	14.66	4025	
+Międzybórz	17.40	51.23	dolnośląskie	6.41	2346	
+Międzychód	15.53	52.36	wielkopolskie	6.98	10723	
+Międzylesie	16.41	50.09	dolnośląskie	14.37	2709	
+Międzyrzecz	15.34	52.31	lubuskie	10.26	18459	
+Międzyzdroje	14.26	53.56	zachodniopomorskie	4.5	5475	
+Miłakowo	20.05	54.01	warmińsko-mazurskie	8.76	2632	
+Miłomłyn	19.50	53.46	warmińsko-mazurskie	12.38	2444	
+Miłosław	17.30	52.13	wielkopolskie	4.07	3589	
+Mińsk Mazowiecki	21.33	52.11	mazowieckie	13.18	40211	
+Modliborzyce	22.20	50.45	lubelskie	7.89	1430	
+Mogielnica	20.43	51.42	mazowieckie	12.98	2352	
+Mogilno	17.57	52.39	kujawsko-pomorskie	8.32	12240	
+Mordy	22.31	52.13	mazowieckie	4.54	1797	
+Moryń	14.22	52.51	zachodniopomorskie	5.54	1608	
+Morąg	19.56	53.55	warmińsko-mazurskie	6.11	14269	
+Mosina	16.50	52.14	wielkopolskie	13.5	13220	
+Mońki	22.48	53.25	podlaskie	7.66	10275	
+Mrocza	17.36	53.15	kujawsko-pomorskie	5.01	4377	
+Mrozy	21.49	52.10	mazowieckie	7.73	3528	
+Mrągowo	21.18	53.52	warmińsko-mazurskie	14.81	22135	
+Mszana Dolna	20.04	49.41	małopolskie	27.1	7890	
+Mszczonów	20.31	51.59	mazowieckie	8.56	6445	
+Murowana Goślina	17.00	52.34	wielkopolskie	8.62	10508	
+Muszyna	20.55	49.21	małopolskie	24.43	5028	
+Myszków	19.20	50.35	śląskie	73.59	32499	
+Myszyniec	21.21	53.23	mazowieckie	11.22	3294	
+Mysłowice	19.08	50.14	śląskie	65.62	75037	
+Myślenice	19.57	49.50	małopolskie	30.22	18346	
+Myślibórz	14.51	52.55	zachodniopomorskie	15.04	11512	
+Mława	20.23	53.07	mazowieckie	34.8	30968	
+Młynary	19.43	54.11	warmińsko-mazurskie	2.76	1817	
+Nakło nad Notecią	17.35	53.09	kujawsko-pomorskie	10.62	19064	
+Namysłów	17.43	51.04	opolskie	22.61	16126	
+Narol	23.20	50.21	podkarpackie	12.42	2107	
+Nasielsk	20.48	52.36	mazowieckie	12.57	7629	
+Nałęczów	22.13	51.17	lubelskie	13.82	3892	
+Nekla	17.25	52.22	wielkopolskie	19.79	3655	
+Nidzica	20.25	53.21	warmińsko-mazurskie	6.86	14258	
+Niemcza	16.50	50.43	dolnośląskie	19.81	3107	
+Niemodlin	17.37	50.38	opolskie	13.11	6586	
+Niepołomice	20.13	50.02	małopolskie	27.4	11201	
+Nieszawa	18.54	52.50	kujawsko-pomorskie	9.79	1975	
+Nisko	22.08	50.31	podkarpackie	60.96	15453	
+Nowa Dęba	21.46	50.26	podkarpackie	16.7	11403	
+Nowa Ruda	16.31	50.35	dolnośląskie	37.05	23030	
+Nowa Sarzyna	22.21	50.20	podkarpackie	9.15	6102	
+Nowa Sól	15.43	51.48	lubuskie	21.8	39571	
+Nowe	18.43	53.38	kujawsko-pomorskie	3.57	6118	
+Nowe Brzesko	20.22	50.08	małopolskie	7.26	1667	
+Nowe Miasteczko	15.44	51.42	lubuskie	3.29	2897	
+Nowe Miasto Lubawskie	19.35	53.26	warmińsko-mazurskie	11.37	11180	
+Nowe Miasto nad Pilicą	20.34	51.37	mazowieckie	11.25	3890	
+Nowe Skalmierzyce	18.00	51.43	wielkopolskie	1.58	4871	
+Nowe Warpno	14.17	53.43	zachodniopomorskie	24.51	1226	
+Nowogard	15.08	53.40	zachodniopomorskie	12.44	16821	
+Nowogrodziec	15.23	51.12	dolnośląskie	16.1	4227	
+Nowogród	21.54	53.14	podlaskie	20.55	2187	
+Nowogród Bobrzański	16.15	51.48	lubuskie	14.63	5151	
+Nowy Dwór Gdański	19.06	54.13	pomorskie	5.07	10015	
+Nowy Dwór Mazowiecki	20.43	52.26	mazowieckie	28.21	28364	
+Nowy Staw	19.00	54.03	pomorskie	4.67	4330	
+Nowy Sącz	20.42	49.37	małopolskie	57.58	83853	
+Nowy Targ	20.02	49.29	małopolskie	51.07	33598	
+Nowy Tomyśl	16.08	52.19	wielkopolskie	5.2	14974	
+Nowy Wiśnicz	20.27	49.55	małopolskie	4.97	2767	
+Nysa	17.20	50.28	opolskie	27.51	44775	
+Oborniki	16.49	52.38	wielkopolskie	14.08	18426	
+Oborniki Śląskie	16.55	51.18	dolnośląskie	14.46	9070	
+Obrzycko	16.31	52.42	wielkopolskie	3.74	2393	
+Odolanów	17.40	51.34	wielkopolskie	4.76	5134	
+Ogrodzieniec	19.31	50.27	śląskie	28.56	4349	
+Okonek	16.51	53.32	wielkopolskie	6.01	3979	
+Olecko	22.30	54.02	warmińsko-mazurskie	11.54	16458	
+Oleszyce	23.02	50.10	podkarpackie	5.08	3093	
+Olkusz	19.04	50.17	małopolskie	25.65	36477	
+Olsztyn	20.30	53.47	warmińsko-mazurskie	88.33	173831	
+Olsztynek	20.17	53.35	warmińsko-mazurskie	7.69	7738	
+Olszyna	15.22	51.04	dolnośląskie	20.26	4469	
+Opalenica	16.24	52.19	wielkopolskie	6.42	9621	
+Opoczno	20.17	51.23	łódzkie	24.75	21965	
+Opole	17.56	50.40	opolskie	96.55	119574	
+Opole Lubelskie	21.59	51.09	lubelskie	15.12	8792	
+Orneta	20.08	54.07	warmińsko-mazurskie	9.63	9057	
+Orzesze	18.45	50.09	śląskie	83.79	20194	
+Orzysz	21.57	53.48	warmińsko-mazurskie	8.17	5799	
+Osieczna	18.12	53.47	wielkopolskie	4.76	2265	
+Ostroróg	16.26	52.38	wielkopolskie	1.25	1989	
+Ostrołęka	21.35	53.05	mazowieckie	28.63	52611	
+Ostrzeszów	17.56	51.25	wielkopolskie	12.13	14511	
+Ostróda	19.58	53.42	warmińsko-mazurskie	14.15	33790	
+Ostrów Lubelski	22.52	51.30	lubelskie	29.77	2191	
+Ostrów Mazowiecka	21.53	52.48	mazowieckie	22.27	22792	
+Ostrów Wielkopolski	17.49	51.38	wielkopolskie	41.9	72754	
+Otmuchów	17.10	50.28	opolskie	27.82	5038	
+Otwock	21.15	52.07	mazowieckie	47.31	45025	
+Ozimek	18.13	50.41	opolskie	3.25	9119	
+Ozorków	19.17	51.58	łódzkie	15.46	20068	
+Oława	17.18	50.57	dolnośląskie	27.36	32356	
+Ośno Lubuskie	14.52	52.27	lubuskie	8.01	3856	
+Oświęcim	19.08	50.02	małopolskie	30	39444	
+Ożarów	21.40	50.53	świętokrzyskie	7.79	4682	
+Ożarów Mazowiecki	20.48	52.13	mazowieckie	8.13	10880	
+Pabianice	19.22	51.40	łódzkie	32.99	67207	
+Paczków	17.01	50.28	opolskie	6.6	7785	
+Pajęczno	19.00	51.09	łódzkie	20.23	6791	
+Pakość	18.05	52.48	kujawsko-pomorskie	3.46	5712	
+Parczew	22.55	51.38	lubelskie	8.05	10913	
+Pasym	20.47	53.39	warmińsko-mazurskie	15.18	2542	
+Pasłęk	19.40	54.04	warmińsko-mazurskie	10.63	12406	
+Pelplin	18.42	53.56	pomorskie	4.42	8225	
+Pełczyce	15.18	53.02	zachodniopomorskie	13.07	2635	
+Piaseczno	21.02	52.04	mazowieckie	16.22	45567	
+Piastów	20.51	52.11	mazowieckie	5.76	22870	
+Piechowice	15.35	50.51	dolnośląskie	43.22	6483	
+Piekary Śląskie	18.57	50.23	śląskie	39.98	56755	
+Pieniężno	20.08	54.14	warmińsko-mazurskie	3.81	2909	
+Pieszyce	16.35	50.43	dolnośląskie	63.61	9586	
+Pieńsk	15.02	51.15	dolnośląskie	9.92	5943	
+Pilawa	21.32	51.57	mazowieckie	6.62	4484	
+Pilica	19.39	50.29	śląskie	8.22	1937	
+Pilzno	21.17	49.59	podkarpackie	16.04	4802	
+Pionki	21.27	51.29	mazowieckie	18.4	19168	
+Piotrków Kujawski	18.30	52.33	kujawsko-pomorskie	9.76	4462	
+Piotrków Trybunalski	19.41	51.24	łódzkie	67.24	75608	
+Pisz	21.48	53.38	warmińsko-mazurskie	10.08	19562	
+Piła	16.45	53.10	wielkopolskie	102.68	74333	
+Piława Górna	16.44	50.41	dolnośląskie	20.93	6702	
+Pińczów	20.32	50.32	świętokrzyskie	14.33	11179	
+Pleszew	17.47	51.53	wielkopolskie	13.38	17717	
+Pobiedziska	17.17	52.28	wielkopolskie	10.24	9091	
+Poddębice	18.57	51.53	łódzkie	5.87	7771	
+Podkowa Leśna	20.43	52.07	mazowieckie	10.13	3845	
+Pogorzela	17.14	51.48	wielkopolskie	4.36	2063	
+Polanica-Zdrój	16.31	50.24	dolnośląskie	17.22	6599	
+Polanów	16.41	54.07	zachodniopomorskie	7.37	3005	
+Police	14.33	53.33	zachodniopomorskie	37.31	33404	
+Polkowice	16.04	51.36	dolnośląskie	23.74	22558	
+Poniatowa	22.05	51.12	lubelskie	15.26	9553	
+Poniec	16.48	51.46	wielkopolskie	3.48	2873	
+Poznań	16.55	52.25	wielkopolskie	261.91	545680	
+Połaniec	21.17	50.26	świętokrzyskie	17.41	8279	
+Połczyn-Zdrój	16.06	53.45	zachodniopomorskie	7.21	8418	
+Prabuty	19.12	53.46	pomorskie	7.29	8781	
+Praszka	18.27	51.03	opolskie	9.35	7907	
+Prochowice	16.23	51.17	dolnośląskie	9.85	3644	
+Proszowice	20.17	50.12	małopolskie	7.33	6158	
+Pruchnik	22.32	49.54	podkarpackie	19.91	3747	
+Prudnik	17.36	50.19	opolskie	20.5	21676	
+Prusice	16.52	51.22	dolnośląskie	10.94	2256	
+Pruszcz Gdański	18.38	54.16	pomorskie	16.47	29226	
+Pruszków	20.48	52.10	mazowieckie	19.19	60068	
+Przasnysz	20.53	53.01	mazowieckie	25.16	17296	
+Przecław	21.29	50.12	podkarpackie	16.04	1723	
+Przedbórz	19.52	51.06	łódzkie	6.08	3697	
+Przedecz	18.54	52.20	wielkopolskie	2.98	1753	
+Przemków	15.47	51.32	dolnośląskie	6.17	6412	
+Przemyśl	22.47	49.48	podkarpackie	46.17	63441	
+Przeworsk	22.29	50.03	podkarpackie	22.13	15681	
+Przysucha	20.38	51.22	mazowieckie	7.02	6068	
+Prószków	17.53	50.35	opolskie	16.22	2721	
+Pszczyna	18.57	49.59	śląskie	22.49	26028	
+Puck	18.24	54.44	pomorskie	4.79	11321	
+Puszczykowo	16.50	52.17	wielkopolskie	16.39	9802	
+Puławy	21.58	51.25	lubelskie	50.49	48864	
+Pułtusk	21.05	52.43	mazowieckie	23.07	19236	
+Pyrzyce	14.53	53.08	zachodniopomorskie	38.79	12769	
+Pyskowice	18.38	50.24	śląskie	30.89	18563	
+Pyzdry	17.41	52.10	wielkopolskie	12.16	3220	
+Płock	19.42	52.33	mazowieckie	88.04	122224	
+Płoty	15.16	53.48	zachodniopomorskie	4.12	4048	
+Płońsk	20.23	52.38	mazowieckie	11.6	22379	
+Racibórz	18.14	50.05	śląskie	75.01	55710	
+Raciąż	20.07	52.47	mazowieckie	8.4	4647	
+Radom	21.10	51.24	mazowieckie	111.8	217201	
+Radomsko	19.27	51.04	łódzkie	51.43	47399	
+Radomyśl Wielki	21.17	50.12	podkarpackie	8.79	3104	
+Radymno	22.50	49.57	podkarpackie	13.62	5433	
+Radziejów	18.31	52.38	kujawsko-pomorskie	5.69	5749	
+Radzymin	21.11	52.25	mazowieckie	23.39	11698	
+Radzyń Chełmiński	18.56	53.23	kujawsko-pomorskie	1.78	1911	
+Radzyń Podlaski	22.38	51.48	lubelskie	19.31	16102	
+Rajgród	22.42	53.44	podlaskie	35.28	1625	
+Rakoniewice	16.16	52.09	wielkopolskie	3.37	3529	
+Raszków	17.44	51.43	wielkopolskie	2.05	2080	
+Rawa Mazowiecka	20.16	51.46	łódzkie	14.28	17737	
+Rawicz	16.52	51.36	wielkopolskie	7.74	20779	
+Recz	15.33	53.15	zachodniopomorskie	12.4	2955	
+Reda	18.20	54.37	pomorskie	33.46	23565	
+Rejowiec Fabryczny	23.16	51.07	lubelskie	14.28	4486	
+Resko	15.24	53.46	zachodniopomorskie	4.49	4325	
+Reszel	21.09	54.03	warmińsko-mazurskie	3.82	4753	
+Rogoźno	16.59	52.45	wielkopolskie	11.24	11229	
+Ropczyce	21.37	50.03	podkarpackie	47.1	15722	
+Ruciane-Nida	21.34	53.39	warmińsko-mazurskie	17.07	4674	
+Ruda Śląska	18.52	50.16	śląskie	77.73	140669	
+Rumia	18.24	54.34	pomorskie	30.1	47602	
+Rybnik	18.33	50.05	śląskie	148.36	140052	
+Rychwał	18.10	52.04	wielkopolskie	9.7	2385	
+Rydzyna	16.40	51.48	wielkopolskie	2.2	2790	
+Ryglice	21.08	49.53	małopolskie	25.15	2870	
+Ryki	21.57	51.37	lubelskie	27.22	9877	
+Rymanów	21.53	49.34	podkarpackie	12.39	3715	
+Ryn	21.32	53.56	warmińsko-mazurskie	4.14	2910	
+Rypin	19.24	53.04	kujawsko-pomorskie	10.96	16739	
+Rzepin	14.49	52.21	lubuskie	11.42	6660	
+Rzeszów	22.01	50.03	podkarpackie	116.36	185123	
+Różan	21.24	52.53	mazowieckie	6.66	2729	
+Sandomierz	21.45	50.41	świętokrzyskie	28.69	24326	
+Sanok	22.13	49.33	podkarpackie	38.08	38818	
+Sejny	23.21	54.06	podlaskie	4.49	5640	
+Serock	21.04	52.31	mazowieckie	13.43	4175	
+Sianów	16.18	54.13	zachodniopomorskie	15.88	6676	
+Siedlce	22.17	52.11	mazowieckie	31.86	76603	
+Siedliszcze	23.10	51.12	lubelskie	-	1408[2]	
+Siemianowice Śląskie	19.02	50.18	śląskie	25.5	68634	
+Siemiatycze	22.52	52.26	podlaskie	36.25	14725	
+Sieniawa	22.37	50.11	podkarpackie	6.74	2157	
+Sieradz	18.44	51.36	łódzkie	51.22	43071	
+Sieraków	16.05	52.39	wielkopolskie	14.08	6089	
+Sierpc	19.40	52.52	mazowieckie	18.59	18453	
+Siewierz	19.14	50.28	śląskie	38.66	5495	
+Skalbmierz	20.24	50.20	świętokrzyskie	7.13	1313	
+Skarszewy	18.27	54.05	pomorskie	10.79	7057	
+Skaryszew	21.15	51.19	mazowieckie	27.49	4335	
+Skarżysko-Kamienna	20.51	51.07	świętokrzyskie	64.39	47212	
+Skawina	19.49	49.59	małopolskie	20.5	24203	
+Skała	19.51	50.14	małopolskie	2.97	3800	
+Skierniewice	20.08	51.58	łódzkie	34.6	48660	
+Skoczów	18.43	49.48	śląskie	9.85	14625	
+Skoki	17.09	52.40	wielkopolskie	11.2	4175	
+Skwierzyna	15.29	52.36	lubuskie	35.89	9805	
+Skórcz	18.32	53.48	pomorskie	3.63	3551	
+Skępe	19.21	52.52	kujawsko-pomorskie	7.48	3623	
+Sobótka	16.45	50.54	dolnośląskie	32.2	6978	
+Sochaczew	20.13	52.14	mazowieckie	26.19	37201	
+Sokołów Małopolski	22.07	50.14	podkarpackie	15.54	4047	
+Sokołów Podlaski	22.16	52.24	mazowieckie	17.51	18743	
+Sokółka	23.30	53.24	podlaskie	18.59	18716	
+Solec Kujawski	18.14	53.05	kujawsko-pomorskie	18.68	15627	
+Sompolno	18.30	52.23	wielkopolskie	6.21	3612	
+Sopot	18.33	54.26	pomorskie	17.28	37654	
+Sosnowiec	19.08	50.17	śląskie	91.06	209274	
+Sośnicowice	18.32	50.16	śląskie	11.67	1854	
+Stalowa Wola	22.05	50.34	podkarpackie	82.52	63291	
+Starachowice	21.04	51.02	świętokrzyskie	31.82	50679	
+Starogard Gdański	18.32	53.58	pomorskie	25.28	48327	
+Stary Sącz	20.38	49.34	małopolskie	15	9040	
+Staszów	21.10	50.34	świętokrzyskie	26.88	15298	
+Stawiski	22.10	53.23	podlaskie	13.24	2342	
+Stawiszyn	18.06	51.55	wielkopolskie	0.99	1542	
+Stepnica	14.37	53.39	zachodniopomorskie	3.4	2446	
+Stoczek Łukowski	21.58	51.58	lubelskie	9.15	2665	
+Stopnica	20.56	50.26	świętokrzyskie	4.55	1462	
+Stronie Śląskie	16.52	50.18	dolnośląskie	2.38	5934	
+Strumień	18.46	49.55	śląskie	6.29	3642	
+Stryków	19.35	51.54	łódzkie	8.15	3536	
+Strzegom	16.21	50.58	dolnośląskie	20.49	16643	
+Strzelce Krajeńskie	15.31	52.53	lubuskie	5.54	10118	
+Strzelce Opolskie	18.18	50.31	opolskie	29.97	18373	
+Strzelin	17.04	50.47	dolnośląskie	10.34	12546	
+Strzelno	18.10	52.38	kujawsko-pomorskie	4.46	5747	
+Strzyżów	21.47	49.52	podkarpackie	13.89	8955	
+Stąporków	20.33	51.09	świętokrzyskie	10.94	5947	
+Stęszew	16.41	52.17	wielkopolskie	5.69	5903	
+Sucha Beskidzka	19.29	49.44	małopolskie	27.65	9414	
+Suchań	15.19	53.17	zachodniopomorskie	3.57	1459	
+Suchedniów	20.50	51.03	świętokrzyskie	59.4	8667	
+Suchowola	23.06	53.35	podlaskie	25.95	2236	
+Sulechów	15.37	52.05	lubuskie	6.88	17322	
+Sulejów	19.52	51.22	łódzkie	26.26	6360	
+Sulejówek	21.16	52.13	mazowieckie	19.31	19411	
+Sulmierzyce	19.12	51.11	wielkopolskie	29.29	2905	
+Sulęcin	15.07	52.27	lubuskie	8.56	10278	
+Supraśl	23.20	53.13	podlaskie	5.69	4633	
+Suraż	22.57	52.57	podlaskie	33.86	1009	
+Susz	19.21	53.43	warmińsko-mazurskie	6.67	5694	
+Suwałki	22.56	54.06	podlaskie	65.51	69316	
+Sułkowice	19.48	49.52	małopolskie	16.46	6537	
+Swarzędz	17.04	52.24	wielkopolskie	8.23	31035	
+Syców	17.43	51.18	dolnośląskie	17.05	10407	
+Szadek	18.59	51.42	łódzkie	17.93	2024	
+Szamocin	17.07	53.02	wielkopolskie	4.67	4337	
+Szamotuły	16.34	52.36	wielkopolskie	11.08	18831	
+Szczawnica	20.28	49.26	małopolskie	32.9	5972	
+Szczawno-Zdrój	16.16	50.49	dolnośląskie	14.74	5754	
+Szczebrzeszyn	22.59	50.42	lubelskie	29.12	5202	
+Szczecin	14.34	53.26	zachodniopomorskie	300.55	407180	
+Szczecinek	16.41	53.43	zachodniopomorskie	48.48	40535	
+Szczekociny	19.48	50.38	śląskie	18.03	3726	
+Szczucin	21.04	50.19	małopolskie	6.85	4189	
+Szczuczyn	22.18	53.34	podlaskie	13.23	3449	
+Szczyrk	19.02	49.43	śląskie	39.07	5799	
+Szczytna	16.26	50.25	dolnośląskie	80.38	5328	
+Szczytno	20.59	53.34	warmińsko-mazurskie	10.62	24185	
+Szepietowo	22.33	52.52	podlaskie	1.96	2278	
+Szklarska Poręba	15.32	50.50	dolnośląskie	75.44	6829	
+Szlichtyngowa	16.15	51.43	lubuskie	1.55	1289	
+Szprotawa	15.32	51.34	lubuskie	10.95	12252	
+Sztum	19.02	53.56	pomorskie	4.59	10308	
+Szubin	17.45	53.01	kujawsko-pomorskie	7.65	9551	
+Szydłowiec	20.51	51.14	mazowieckie	21.89	12049	
+Sędziszów	20.04	50.35	świętokrzyskie	7.92	6654	
+Sędziszów Małopolski	21.42	50.04	podkarpackie	9.96	7492	
+Sępopol	21.01	54.16	warmińsko-mazurskie	4.63	2013	
+Sępólno Krajeńskie	17.32	53.27	kujawsko-pomorskie	6.55	9361	
+Sława	16.04	51.53	lubuskie	14.9	4299	
+Sławków	19.20	50.17	śląskie	36.67	7135	
+Słomniki	20.05	50.15	małopolskie	3.43	4402	
+Słupca	17.53	52.17	wielkopolskie	10.3	14016	
+Słupsk	17.02	54.28	pomorskie	43.15	93206	
+Tarczyn	20.50	51.59	mazowieckie	5.23	4089	
+Tarnobrzeg	21.41	50.35	podkarpackie	85.4	48000	
+Tarnogród	22.45	50.21	lubelskie	10.69	3457	
+Tarnowskie Góry	18.52	50.27	śląskie	83.72	60879	
+Tarnów	21.00	50.02	małopolskie	72.38	111376	
+Tczew	18.43	54.06	pomorskie	22.38	60573	
+Terespol	23.37	52.05	lubelskie	10.11	5794	
+Tolkmicko	19.31	54.19	warmińsko-mazurskie	2.29	2794	
+Tomaszów Lubelski	23.25	50.27	lubelskie	13.29	19824	
+Tomaszów Mazowiecki	20.02	51.32	łódzkie	41.3	64513	
+Toruń	18.37	53.02	kujawsko-pomorskie	115.72	203158	
+Torzym	15.04	52.19	lubuskie	9.11	2571	
+Toszek	18.31	50.28	śląskie	9.71	3615	
+Trzcianka	16.28	53.03	wielkopolskie	18.3	17323	
+Trzciel	15.52	52.22	lubuskie	3.04	2501	
+Trzcińsko-Zdrój	14.35	52.58	zachodniopomorskie	2.33	2418	
+Trzebiatów	15.15	54.04	zachodniopomorskie	10.25	10153	
+Trzebinia	19.28	50.10	małopolskie	31.94	20127	
+Trzebnica	17.04	51.18	dolnośląskie	8.36	12970	
+Trzemeszno	17.49	52.34	wielkopolskie	5.46	7848	
+Tuchola	17.51	53.36	kujawsko-pomorskie	17.69	13935	
+Tuchów	21.03	49.54	małopolskie	18.1	6724	
+Tuczno	16.08	53.11	zachodniopomorskie	9.21	1956	
+Tuliszków	18.18	52.04	wielkopolskie	7	3379	
+Turek	18.30	52.01	wielkopolskie	16.17	27926	
+Tuszyn	19.32	51.36	łódzkie	23.25	7309	
+Twardogóra	17.28	51.22	dolnośląskie	8.29	6794	
+Tychowo	16.15	53.55	zachodniopomorskie	3.96	2555	
+Tychy	18.59	50.08	śląskie	81.81	128621	
+Tyczyn	22.02	49.58	podkarpackie	9.67	3638	
+Tykocin	22.46	53.12	podlaskie	28.97	2012	
+Tłuszcz	21.27	52.26	mazowieckie	7.91	8041	
+Ujście	16.44	53.04	wielkopolskie	5.78	3802	
+Ulanów	22.17	50.30	podkarpackie	8.2	1447	
+Uniejów	18.48	51.58	łódzkie	12.23	3051	
+Urzędów	22.09	51.00	lubelskie	-	1069	
+Ustka	16.51	54.35	pomorskie	10.19	16056	
+Ustroń	18.49	49.43	śląskie	59.03	16073	
+Ustrzyki Dolne	22.36	49.26	podkarpackie	16.79	9383	
+Wadowice	19.30	49.53	małopolskie	10.54	19254	
+Warka	21.12	51.47	mazowieckie	26.77	11777	
+Warszawa	21.02	52.12	mazowieckie	517.24	1735442	
+Warta	18.38	51.42	łódzkie	10.85	3339	
+Wasilków	23.12	53.12	podlaskie	28.26	10677	
+Wałbrzych	16.17	50.47	dolnośląskie	84.7	116691	
+Wałcz	16.27	53.16	zachodniopomorskie	38.17	26033	
+Wejherowo	18.15	54.36	pomorskie	26.99	50292	
+Wieleń	16.10	52.54	wielkopolskie	4.33	5995	
+Wielichowo	16.21	52.07	wielkopolskie	1.24	1757	
+Wieliczka	20.03	49.59	małopolskie	13.41	21676	
+Wieluń	18.34	51.13	łódzkie	16.87	23300	
+Wieruszów	18.10	51.17	łódzkie	5.97	8653	
+Wilamowice	19.09	49.55	śląskie	10.36	3033	
+Wisła	18.52	49.39	śląskie	110.17	11198	
+Witkowo	17.47	52.26	wielkopolskie	8.31	7974	
+Witnica	14.53	52.41	lubuskie	8.24	6923	
+Wiązów	17.17	50.49	dolnośląskie	9.16	2299	
+Więcbork	17.29	53.21	kujawsko-pomorskie	4.31	5994	
+Wleń	15.41	51.01	dolnośląskie	7.22	1829	
+Wodzisław Śląski	18.28	50.01	śląskie	49.51	48864	
+Wojcieszów	15.55	50.58	dolnośląskie	32.17	3814	
+Wojnicz	20.50	49.58	małopolskie	8.5	3401	
+Wolbrom	19.46	50.23	małopolskie	10.12	8823	
+Wolbórz	19.50	51.31	łódzkie	15.18	2362	
+Wolin	14.31	53.50	zachodniopomorskie	14.47	4919	
+Wolsztyn	16.07	52.07	wielkopolskie	4.78	13552	
+Wołczyn	18.03	51.01	opolskie	7.47	5967	
+Wołomin	21.14	52.21	mazowieckie	17.24	37389	
+Wołów	16.39	51.21	dolnośląskie	18.54	12578	
+Woźniki	19.04	50.35	śląskie	71.01	4422	
+Wrocław	17.02	51.07	dolnośląskie	292.82	634487	
+Wronki	16.22	52.43	wielkopolskie	5.81	11473	
+Września	17.35	52.20	wielkopolskie	12.73	29735	
+Wschowa	16.18	51.48	lubuskie	9.25	14265	
+Wyrzysk	17.16	53.09	wielkopolskie	4.12	5179	
+Wysoka	17.04	53.11	wielkopolskie	4.82	2707	
+Wysokie Mazowieckie	22.30	52.55	podlaskie	15.24	9517	
+Wyszków	21.27	52.36	mazowieckie	20.78	27173	
+Wyszogród	20.12	52.23	mazowieckie	12.97	2705	
+Wyśmierzyce	20.48	51.38	mazowieckie	16.84	921	
+Wąbrzeźno	18.57	53.17	kujawsko-pomorskie	8.53	13925	
+Wąchock	21.01	51.05	świętokrzyskie	16.02	2848	
+Wągrowiec	17.12	52.48	wielkopolskie	17.83	25266	
+Wąsosz	16.41	51.34	dolnośląskie	3.24	2774	
+Węgliniec	15.13	51.17	dolnośląskie	8.73	2984	
+Węgorzewo	21.45	54.13	warmińsko-mazurskie	10.88	11661	
+Węgorzyno	15.33	53.32	zachodniopomorskie	6.85	2902	
+Węgrów	22.01	52.24	mazowieckie	35.51	12795	
+Władysławowo	18.24	54.48	pomorskie	12.59	10053	
+Włocławek	19.03	52.39	kujawsko-pomorskie	84.32	113939	
+Włodawa	23.33	51.33	lubelskie	17.97	13601	
+Włoszczowa	19.58	50.51	świętokrzyskie	30.3	10417	
+Zabrze	18.47	50.18	śląskie	80.4	177188	
+Zabłudów	23.21	53.01	podlaskie	14.3	2499	
+Zagórz	22.16	49.31	podkarpackie	22.29	5073	
+Zagórów	17.54	52.10	wielkopolskie	3.44	3076	
+Zakliczyn	20.49	49.51	małopolskie	4.02	1661	
+Zaklików	22.07	50.46	podkarpackie	11.42	3064	
+Zakopane	19.57	49.18	małopolskie	84.26	27556	
+Zakroczym	20.37	52.26	mazowieckie	19.97	3231	
+Zalewo	19.36	53.51	warmińsko-mazurskie	8.22	2185	
+Zambrów	22.15	52.59	podlaskie	19.02	22262	
+Zamość	23.16	50.43	lubelskie	30.34	65055	
+Zator	19.26	49.59	małopolskie	11.52	3700	
+Zawadzkie	18.29	50.37	opolskie	16.46	7493	
+Zawichost	21.51	50.49	świętokrzyskie	20.29	1863	
+Zawidów	15.04	51.01	dolnośląskie	6.07	4315	
+Zawiercie	19.25	50.30	śląskie	85.25	50990	
+Zbąszynek	15.49	52.15	lubuskie	3.58	5060	
+Zbąszyń	15.55	52.15	wielkopolskie	5.42	7235	
+Zduńska Wola	18.56	51.36	łódzkie	24.57	43310	
+Zdzieszowice	18.07	50.25	opolskie	12.35	11899	
+Zelów	19.13	51.28	łódzkie	10.75	7785	
+Zgierz	19.25	51.52	łódzkie	42.33	57390	
+Zgorzelec	15.01	51.09	dolnośląskie	15.88	31532	
+Zielona Góra	15.30	51.56	lubuskie	278.32	138512	
+Zielonka	21.09	52.18	mazowieckie	79.48	17459	
+Ziębice	17.03	50.37	dolnośląskie	15.07	9052	
+Zwierzyniec	22.58	50.37	lubelskie	6.19	3321	
+Zwoleń	21.36	51.22	mazowieckie	15.91	8065	
+Ząbki	21.07	52.17	mazowieckie	10.98	32844	
+Ząbkowice Śląskie	16.49	50.35	dolnośląskie	13.67	15585	
+Złocieniec	16.00	53.32	zachodniopomorskie	32.28	13190	
+Złoczew	18.37	51.25	łódzkie	13.79	3378	
+Złotoryja	15.55	51.08	dolnośląskie	11.51	16085	
+Złoty Stok	16.52	50.27	dolnośląskie	7.73	2902	
+Złotów	17.02	53.22	wielkopolskie	11.58	18492	
+Ćmielów	21.31	50.54	świętokrzyskie	13.34	3116	
+Łabiszyn	17.55	52.57	kujawsko-pomorskie	2.89	4524	
+Łapy	22.53	52.59	podlaskie	12.14	15879	
+Łasin	19.05	53.31	kujawsko-pomorskie	4.79	3372	
+Łask	19.08	51.36	łódzkie	15.67	17897	
+Łaskarzew	21.37	51.48	mazowieckie	15.35	4910	
+Łaszczów	23.43	50.32	lubelskie	5.01	2222	
+Łazy	19.24	50.26	śląskie	8.6	6972	
+Łańcut	22.14	50.04	podkarpackie	19.42	17982	
+Łeba	17.33	54.47	pomorskie	14.81	3836	
+Łobez	15.37	53.38	zachodniopomorskie	12.84	10409	
+Łobżenica	17.15	53.16	wielkopolskie	3.25	2997	
+Łochów	21.42	52.32	mazowieckie	13.39	6809	
+Łomianki	20.53	52.20	mazowieckie	8.4	16617	
+Łomża	22.04	53.11	podlaskie	32.67	62779	
+Łosice	22.43	52.13	mazowieckie	23.74	7102	
+Łowicz	19.56	52.06	łódzkie	23.42	29169	
+Łuków	22.23	51.56	lubelskie	35.75	30557	
+Łódź	19.28	51.47	łódzkie	293.25	706004	
+Łęczna	22.53	51.18	lubelskie	19	19690	
+Łęczyca	19.12	52.03	łódzkie	8.95	14660	
+Łęknica	14.44	51.33	lubuskie	16.43	2578	
+Ścinawa	16.26	51.25	dolnośląskie	13.54	5767	
+Ślesin	18.18	52.22	wielkopolskie	7.18	3151	
+Śmigiel	16.32	52.01	wielkopolskie	5.3	5631	
+Śrem	17.01	52.05	wielkopolskie	12.37	30036	
+Środa Wielkopolska	17.16	52.14	wielkopolskie	17.98	22661	
+Środa Śląska	16.35	51.09	dolnośląskie	14.94	9342	
+Świdnik	22.41	51.12	lubelskie	20.35	40078	
+Świdwin	15.47	53.47	zachodniopomorskie	22.38	15588	
+Świebodzice	16.20	50.52	dolnośląskie	30.43	23197	
+Świebodzin	15.32	52.15	lubuskie	16.93	22008	
+Świecie	18.26	53.25	kujawsko-pomorskie	11.87	26276	
+Świeradów-Zdrój	15.21	50.54	dolnośląskie	20.72	4308	
+Świerzawa	15.54	51.01	dolnośląskie	1.76	2339	
+Świnoujście	14.15	53.55	zachodniopomorskie	197.23	41276	
+Świątniki Górne	19.58	49.56	małopolskie	4.44	2400	
+Świętochłowice	18.55	50.19	śląskie	13.31	51494	
+Żabno	20.53	50.07	małopolskie	11.13	4214	
+Żagań	15.19	51.37	lubuskie	40.38	26426	
+Żarki	19.22	50.38	śląskie	25.44	4526	
+Żary	15.08	51.38	lubuskie	33.49	38527	
+Żarów	16.30	50.57	dolnośląskie	7.04	6893	
+Żelechów	21.54	51.49	mazowieckie	12.13	4061	
+Żerków	17.34	52.04	wielkopolskie	2.16	2149	
+Żmigród	16.54	51.28	dolnośląskie	9.49	6487	
+Żnin	17.43	52.51	kujawsko-pomorskie	8.35	14173	
+Żory	18.42	50.03	śląskie	64.64	62051	
+Żukowo	18.21	54.21	pomorskie	4.73	6532	
+Żuromin	19.54	53.04	mazowieckie	11.18	9015	
+Żychlin	19.37	52.15	łódzkie	8.68	8537	
+Żyrardów	20.26	52.03	mazowieckie	14.35	41003	
+Żywiec	19.12	49.42	śląskie	50.54	31942	
