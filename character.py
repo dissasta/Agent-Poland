@@ -2,6 +2,8 @@ import pygame
 from main import *
 from random import randint
 
+Blocked = pygame.sprite.Group()
+
 class Diamond(pygame.sprite.Sprite):
 
     images = []
@@ -36,6 +38,7 @@ class Diamond(pygame.sprite.Sprite):
             Diamond.images.append(pygame.image.load("res/diamond_spawn23.png").convert())
 
         self.index = 0
+
         if not self.clone:
             self.image = Diamond.images[19]
         else:
@@ -46,7 +49,7 @@ class Diamond(pygame.sprite.Sprite):
         self.rect.topleft = (self.x, self.y)
         self.List.add(self)
 
-        if len(pygame.sprite.spritecollide(self, Diamond.List, False)) > 1 or pygame.sprite.spritecollide(self, Character.List, False):
+        if len(pygame.sprite.spritecollide(self, Diamond.List, False)) > 1 or pygame.sprite.spritecollide(self, Blocked, False):
             Diamond.List.remove(self)
 
     def update(self):
@@ -60,16 +63,18 @@ class Diamond(pygame.sprite.Sprite):
             zones = []
             if self.rect.x in range(self.rect.w, screen_w - self.rect.w * 2) and self.rect.y in range(self.rect.h, screen_h - self.rect.h * 2):
                 zone1 = [self.rect.x - self.rect.w, randint((self.rect.y - self.rect.h),(self.rect.y + self.rect.h))] #left side
-                zones.append(zone1)
-            if self.rect.x in range(self.rect.w, screen_w - self.rect.w * 2) and self.rect.y in range(self.rect.h, screen_h - self.rect.h * 2):
                 zone2 = [self.rect.x + self.rect.w, randint((self.rect.y - self.rect.h),(self.rect.y + self.rect.h))] #right side
-                zones.append(zone2)
-            if self.rect.y in range(self.rect.h, screen_h - self.rect.h * 2) and self.rect.x in range(self.rect.w, screen_w - self.rect.w * 2):
                 zone3 = [randint((self.rect.x - self.rect.w), (self.rect.x + self.rect.w)), self.rect.y - self.rect.h] # top side
-                zones.append(zone3)
-            if self.rect.y in range(self.rect.h, screen_h - self.rect.h * 2) and self.rect.x in range(self.rect.w, screen_w - self.rect.w * 2):
                 zone4 = [randint((self.rect.x - self.rect.w), (self.rect.x  + self.rect.w)), self.rect.y + self.rect.h] #bottom side
-                zones.append(zone4)
+                zones = [zone1, zone2, zone3, zone4]
+            elif self.rect.x < self.rect.w:
+                zones = [[self.rect.x + self.rect.w, self.rect.y]] #right side
+            elif self.rect.x > screen_w - self.rect.w * 2:
+                zones = [[self.rect.x - self.rect.w, self.rect.y]] #left side
+            elif self.rect.y < self.rect.h:
+                zones = [[self.rect.x, self.rect.y + self.rect.h]] #bottom side
+            elif self.rect.y > screen_h - self.rect.h * 2:
+                zones = [[self.rect.x, self.rect.y - self.rect.h]] #top side
 
             try:
                 rand_zone = zones[randint(0, len(zones) - 1)]
@@ -82,19 +87,19 @@ class Character(pygame.sprite.Sprite):
     List = pygame.sprite.Group()
 
     def __init__(self, x, y):
-        pygame.sprite.Sprite.__init__(self)
-        self.width = 40
-        self.height = 40
+        pygame.sprite.Sprite.__init__(self, Blocked)
+        self.w = 40
+        self.h = 40
         self.speed = 3
         self.diamonds = 0
         self.fuzzed = False
         self.current_city = None
         self.current_zone = None
         self.traveling_to = None
-        self.rect = pygame.Rect(x, y, self.width, self.height)
+        self.rect = pygame.Rect(x, y, self.w, self.h)
 
     def draw(self, screen):
-        pygame.draw.rect(screen, (255,255,255), (self.rect.x, self.rect.y, self.width, self.height))
+        pygame.draw.rect(screen, (255,255,255), (self.rect.x, self.rect.y, self.rect.w, self.rect.h))
 
     def collect_diamond(self):
         if self.diamonds != 100:
@@ -107,16 +112,16 @@ class Player(Character):
     def __init__(self, x, y):
         Character.__init__(self,x, y)
         self.speed = 3
-        self.diamonds = 50
+        self.diamonds = 5
         self.keys_pressed = []
         self.map_view = False
-        self.rect = pygame.Rect(x, y, self.width, self.height)
         Character.List.add(self)
 
-    def drop_diamond(self):
-        x = self.rect.x + self.width / 2
-        y = self.rect.y + self.height / 2
-        if self.diamonds > 0 and self.rect.x in range(self.rect.w, screen_w - self.rect.w * 2) and self.rect.y in range(self.rect.h, screen_h - self.rect.h * 2):
+    def drop_diamond(self, screen_w, screen_h):
+        x = self.rect.x + self.rect.w / 2
+        y = self.rect.y + self.rect.h / 2
+        diamonds_count = len(Diamond.List)
+        if self.diamonds > 0 and self.rect.x in range(self.rect.w, screen_w - self.rect.w * 2) and self.rect.y in range(self.rect.h - 10, screen_h - self.rect.h * 2 + 10):
 
             if self.keys_pressed.count(1) == 2:
                 if self.keys_pressed[pygame.K_s] and self.keys_pressed[pygame.K_a]:
@@ -131,8 +136,11 @@ class Player(Character):
                 elif self.keys_pressed[pygame.K_w] and self.keys_pressed[pygame.K_d]:
                     x -= 40
                     y += 20
+
                 Diamond(x, y, False)
-                self.diamonds -= 1
+
+                if len(Diamond.List) != diamonds_count:
+                    self.diamonds -= 1
 
             elif self.keys_pressed.count(1) == 1:
                 if self.keys_pressed[pygame.K_s]:
@@ -149,7 +157,8 @@ class Player(Character):
                     y -= 10
 
                 Diamond(x, y, False)
-                self.diamonds -= 1
+                if len(Diamond.List) != diamonds_count:
+                    self.diamonds -= 1
 
     def move(self):
         if self.keys_pressed[pygame.K_s]:
