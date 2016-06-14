@@ -70,7 +70,7 @@ class Diamond(pygame.sprite.Sprite):
                     zone2 = [randint(self.rect.x, (self.rect.x  + self.rect.w)), self.rect.y + self.rect.h] #bottom side
                 if self.rect.y in range(self.rect.h, screen_h - self.rect.h):
                     zone3 = [randint(self.rect.x, (self.rect.x + self.rect.w)), self.rect.y - self.rect.h] # top side
-                    
+                    y
                 zone2 = [randint(self.rect.x, (self.rect.x  + self.rect.w)), self.rect.y + self.rect.h] #bottom side
             if self.rect.y in range(self.rect.h, screen_h - self.rect.h * 2) and self.rect.x in range(self.rect.w, screen_w - self.rect.w * 2):
                 zone3 = [randint((self.rect.x - self.rect.w), (self.rect.x + self.rect.w)), self.rect.y - self.rect.h] # top side
