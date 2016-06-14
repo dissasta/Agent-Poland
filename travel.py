@@ -17,6 +17,7 @@ class City():
         self.size = size
         self.population = population
         self.layout = []
+        self.zones = []
         self.fuzzed = False
         self.List[self.name] = self
         self.wanderers = []

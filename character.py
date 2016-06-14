@@ -7,11 +7,11 @@ class Diamond(pygame.sprite.Sprite):
     images = []
     List = pygame.sprite.Group()
 
-    def __init__(self, x, y, origin):
+    def __init__(self, x, y, clone):
         pygame.sprite.Sprite.__init__(self)
         self.x = x
         self.y = y
-        self.origin = origin
+        self.clone = clone
 
         if not Diamond.images:
             Diamond.images.append(pygame.image.load("res/diamond_spawn04.png").convert())
@@ -36,9 +36,9 @@ class Diamond(pygame.sprite.Sprite):
             Diamond.images.append(pygame.image.load("res/diamond_spawn23.png").convert())
 
         self.index = 0
-        if origin == 'Drop':
+        if not self.clone:
             self.image = Diamond.images[19]
-        elif origin == 'Clone':
+        else:
             self.image = Diamond.images[1]
 
         self.image.set_colorkey((255, 255, 255))
@@ -50,7 +50,7 @@ class Diamond(pygame.sprite.Sprite):
             Diamond.List.remove(self)
 
     def update(self):
-        if self.origin == 'Clone' and self.index != len(Diamond.images):
+        if self.clone and self.index != len(Diamond.images):
             self.image = Diamond.images[self.index]
             self.image.set_colorkey((255, 255, 255))
             self.index += 1
@@ -59,21 +59,29 @@ class Diamond(pygame.sprite.Sprite):
         if randint(1, 10) == 1:
             zones = []
             if self.rect.x in range(self.rect.w, screen_w - self.rect.w * 2) and self.rect.y in range(self.rect.h, screen_h - self.rect.h * 2):
-                zone1 = [self.rect.x - self.rect.w, randint((self.rect.y - self.rect.h),(self.rect.y + self.rect.h))]
-                zones.append(zone1)
-            if self.rect.x in range(self.rect.w, screen_w - self.rect.w * 2) and self.rect.y in range(self.rect.h, screen_h - self.rect.h * 2):
-                zone2 = [self.rect.x + self.rect.w, randint((self.rect.y - self.rect.h),(self.rect.y + self.rect.h))]
-                zones.append(zone2)
+                zone1 = [self.rect.x - self.rect.w, randint((self.rect.y - self.rect.h),(self.rect.y + self.rect.h))] #left side
+                zone2 = [self.rect.x + self.rect.w, randint((self.rect.y - self.rect.h),(self.rect.y + self.rect.h))] #right side
+                zone3 = [randint((self.rect.x - self.rect.w), (self.rect.x + self.rect.w)), self.rect.y - self.rect.h] # top side
+                zone4 = [randint((self.rect.x - self.rect.w), (self.rect.x  + self.rect.w)), self.rect.y + self.rect.h] #bottom side
+                zones = [zone1, zone2, zone3, zone4]
+            elif self.rect.x < self.rect.w:
+                zone1 = [self.rect.x + self.rect.w, randint(self.rect.y,(self.rect.y + self.rect.h))] #right side
+                if self.rect.y in range(screen_h - self.rect.h * 2):
+                    zone2 = [randint(self.rect.x, (self.rect.x  + self.rect.w)), self.rect.y + self.rect.h] #bottom side
+                if self.rect.y in range(self.rect.h, screen_h - self.rect.h):
+                    zone3 = [randint(self.rect.x, (self.rect.x + self.rect.w)), self.rect.y - self.rect.h] # top side
+                    
+                zone2 = [randint(self.rect.x, (self.rect.x  + self.rect.w)), self.rect.y + self.rect.h] #bottom side
             if self.rect.y in range(self.rect.h, screen_h - self.rect.h * 2) and self.rect.x in range(self.rect.w, screen_w - self.rect.w * 2):
-                zone3 = [randint((self.rect.x - self.rect.w), (self.rect.x + self.rect.w)), self.rect.y - self.rect.h]
-                zones.append(zone3)
+                zone3 = [randint((self.rect.x - self.rect.w), (self.rect.x + self.rect.w)), self.rect.y - self.rect.h] # top side
+
             if self.rect.y in range(self.rect.h, screen_h - self.rect.h * 2) and self.rect.x in range(self.rect.w, screen_w - self.rect.w * 2):
-                zone4 = [randint((self.rect.x - self.rect.w), (self.rect.x  + self.rect.w)), self.rect.y + self.rect.h]
-                zones.append(zone4)
+                zone4 = [randint((self.rect.x - self.rect.w), (self.rect.x  + self.rect.w)), self.rect.y + self.rect.h] #bottom side
+
 
             try:
                 rand_zone = zones[randint(0, len(zones) - 1)]
-                Diamond(rand_zone[0], rand_zone[1], 'Clone')
+                Diamond(rand_zone[0], rand_zone[1], True)
             except ValueError:
                 pass
 
@@ -89,6 +97,8 @@ class Character(pygame.sprite.Sprite):
         self.diamonds = 0
         self.fuzzed = False
         self.current_city = None
+        self.current_zone = None
+        self.traveling_to = None
         self.rect = pygame.Rect(x, y, self.width, self.height)
 
     def draw(self, screen):
@@ -114,7 +124,7 @@ class Player(Character):
     def drop_diamond(self):
         x = self.rect.x + self.width / 2
         y = self.rect.y + self.height / 2
-        if self.diamonds > 0:
+        if self.diamonds > 0 and self.rect.x in range(self.rect.w, screen_w - self.rect.w * 2) and self.rect.y in range(self.rect.h, screen_h - self.rect.h * 2):
 
             if self.keys_pressed.count(1) == 2:
                 if self.keys_pressed[pygame.K_s] and self.keys_pressed[pygame.K_a]:
@@ -129,7 +139,7 @@ class Player(Character):
                 elif self.keys_pressed[pygame.K_w] and self.keys_pressed[pygame.K_d]:
                     x -= 40
                     y += 20
-                Diamond(x, y, 'Drop')
+                Diamond(x, y, False)
                 self.diamonds -= 1
 
             elif self.keys_pressed.count(1) == 1:
@@ -146,7 +156,7 @@ class Player(Character):
                     x -= 60
                     y -= 10
 
-                Diamond(x, y,'Drop')
+                Diamond(x, y, False)
                 self.diamonds -= 1
 
     def move(self):
