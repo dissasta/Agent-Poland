@@ -5,6 +5,15 @@ from main import *
 from math import radians, sqrt, sin, cos, atan2
 from random import randint
 
+class Zone():
+    def __init__(self):
+        self.id = None
+        self.blocked = pygame.sprite.Group()
+        self.wanderers = pygame.sprite.Group()
+
+    def spawn(self):
+        pass
+
 class City():
 
     List = {}
