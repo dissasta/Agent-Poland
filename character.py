@@ -1,7 +1,8 @@
-import pygame, inspect
+import pygame
 from main import *
 from random import randint
 from random import sample
+from geopy.distance import vincenty
 
 Blocked = pygame.sprite.Group()
 
@@ -106,19 +107,24 @@ class Character(pygame.sprite.Sprite):
         if self.diamonds != 100:
             self.diamonds += 1
 
-    def starting_city(self):
-        if inspect.isclass(Fuzz):
-            self.current_city = sample(City.List)
+    def starting_city(fuzz, agent):
 
-        elif inspect.isclass(Player):
-            distances = {}
-            for city in City.List:
-                distances[city] = City.geocalc(Fuzz.current_city, city)
+        fuzz.current_city = sample(City.List, 1)[0]
 
-            furthest_city = sorted(distances.values())[-1]
-            for city, distance in distances:
-                if distance == furthest_city:
-                    return city
+        distances = {}
+        for city in City.List:
+            distances[city] = City.geocalc(fuzz.current_city, city)
+
+        furthest_city = sorted(distances.values())[-1]
+
+        for i in distances.iteritems():
+            if i[1] == furthest_city:
+                agent.current_city = i[0]
+
+        print agent.current_city
+        print fuzz.current_city
+        print furthest_city
+
 
     def starting_xy(self):
         pass
@@ -133,7 +139,7 @@ class Player(Character):
         self.diamonds = 5
         self.keys_pressed = []
         self.map_view = False
-        self.current_city = starting_city()
+        self.current_city = None
         Character.List.add(self)
 
 
@@ -206,4 +212,4 @@ class Fuzz(Character):
     def __init__(self, x, y):
         Character.__init__(self, x, y, 80, 80)
         self.fuzzed = True
-        self.current_city = starting_city()
+        self.current_city = None

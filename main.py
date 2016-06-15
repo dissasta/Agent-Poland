@@ -20,10 +20,11 @@ def play_game():
     timer = 0
 
     map = Map()
-    bar = Bar(0, 0, screen_w, screen_h)
+    bar = Bar(0, 0, screen_w, 20)
     City.spawn()
     fuzz = Fuzz(600, 500)
     agent = Player(50, 50)
+    Character.starting_city(fuzz, agent)
 
     while True:
         for event in pygame.event.get():
