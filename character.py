@@ -1,6 +1,7 @@
-import pygame
+import pygame, inspect
 from main import *
 from random import randint
+from random import sample
 
 Blocked = pygame.sprite.Group()
 
@@ -86,10 +87,10 @@ class Character(pygame.sprite.Sprite):
 
     List = pygame.sprite.Group()
 
-    def __init__(self, x, y):
+    def __init__(self, x, y, w, h):
         pygame.sprite.Sprite.__init__(self, Blocked)
-        self.w = 40
-        self.h = 40
+        self.w = w
+        self.h = h
         self.speed = 3
         self.diamonds = 0
         self.fuzzed = False
@@ -105,17 +106,36 @@ class Character(pygame.sprite.Sprite):
         if self.diamonds != 100:
             self.diamonds += 1
 
+    def starting_city(self):
+        if inspect.isclass(Fuzz):
+            self.current_city = sample(City.List)
+
+        elif inspect.isclass(Player):
+            distances = {}
+            for city in City.List:
+                distances[city] = City.geocalc(Fuzz.current_city, city)
+
+            furthest_city = sorted(distances.values())[-1]
+            for city, distance in distances:
+                if distance == furthest_city:
+                    return city
+
+    def starting_xy(self):
+        pass
+
 class Player(Character):
 
     images = []
 
     def __init__(self, x, y):
-        Character.__init__(self,x, y)
+        Character.__init__(self, x, y, 40, 40)
         self.speed = 3
         self.diamonds = 5
         self.keys_pressed = []
         self.map_view = False
+        self.current_city = starting_city()
         Character.List.add(self)
+
 
     def drop_diamond(self, screen_w, screen_h):
         x = self.rect.x + self.rect.w / 2
@@ -175,7 +195,7 @@ class Wanderer(Character):
     images = []
 
     def __init__(self, x, y):
-        Character.__init__(self, x, y)
+        Character.__init__(self, x, y, 40, 40)
         self.x = x
         self.y = y
 
@@ -184,7 +204,6 @@ class Fuzz(Character):
     images = []
 
     def __init__(self, x, y):
-        Character.__init__(self, x, y)
-        self.x = x
-        self.y = y
+        Character.__init__(self, x, y, 80, 80)
         self.fuzzed = True
+        self.current_city = starting_city()

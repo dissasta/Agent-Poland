@@ -1,20 +1,10 @@
 import pygame, sys, datetime
 import character
-from travel import *
+from location import *
 from character import *
 
 def current_time():
     pass
-
-class Bar(pygame.sprite.Sprite):
-
-    def __init__(self, x, y, w, h):
-        pygame.sprite.Sprite.__init__(self)
-        self.rect = pygame.Rect(x, y, w, h)
-        character.Blocked.add(self)
-
-    def draw(self, screen):
-        pygame.draw.rect(screen, (0,0,0), (self.rect.x, self.rect.y, self.rect.w, self.rect.h))
 
 def play_game():
     screen_w, screen_h = 800, 600
@@ -29,9 +19,11 @@ def play_game():
     fps_counter = 0
     timer = 0
 
-    agent = Player(50, 50)
-    bar = Bar(0, 0, screen_w, 20)
     map = Map()
+    bar = Bar(0, 0, screen_w, screen_h)
+    City.spawn()
+    fuzz = Fuzz(600, 500)
+    agent = Player(50, 50)
 
     while True:
         for event in pygame.event.get():
@@ -61,6 +53,7 @@ def play_game():
         if not agent.map_view:
             screen.fill((125,125,125))
             bar.draw(screen)
+            #agent.current_city.draw_zone(screen, agent)
             Diamond.List.update()
             Diamond.List.draw(screen)
 

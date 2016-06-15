@@ -5,6 +5,16 @@ from main import *
 from math import radians, sqrt, sin, cos, atan2
 from random import randint
 
+class Bar(pygame.sprite.Sprite):
+
+    def __init__(self, x, y, w, h):
+        pygame.sprite.Sprite.__init__(self)
+        self.rect = pygame.Rect(x, y, w, h)
+        character.Blocked.add(self)
+
+    def draw(self, screen):
+        pygame.draw.rect(screen, (0,0,0), (self.rect.x, self.rect.y, self.rect.w, self.rect.h))
+
 class Zone():
     def __init__(self):
         self.id = None
@@ -25,11 +35,27 @@ class City():
         self.state = state
         self.size = size
         self.population = population
-        self.layout = []
+        self.layout = [[0, 1, 0],
+                       [0, 1, 0],
+                       [0, 0, 0]]
         self.zones = []
         self.fuzzed = False
         self.List[self.name] = self
-        self.wanderers = []
+        self.generate_zones()
+
+    def generate_zones(self):
+        active = 0
+        for layer in self.layout:
+            for zone in layer:
+                if zone:
+                    active += 1
+
+        if active != self.size:
+                
+
+    def draw_zone(self, screen, player):
+        for obj in player.current_zone:
+            obj.draw(screen)
 
     @staticmethod
     def spawn():
@@ -99,8 +125,3 @@ class Map(pygame.sprite.Sprite):
             self.rect.x += self.speed
         if player.keys_pressed[pygame.K_d]:
             self.rect.x -= self.speed
-
-if __name__ == '__main__':
-    City.spawn()
-    cities = City.List.keys()
-    print City.geocalc(cities[0], cities[5])
