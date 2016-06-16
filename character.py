@@ -121,11 +121,6 @@ class Character(pygame.sprite.Sprite):
             if i[1] == furthest_city:
                 agent.current_city = i[0]
 
-        print agent.current_city
-        print fuzz.current_city
-        print furthest_city
-
-
     def starting_xy(self):
         pass
 

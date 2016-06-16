@@ -1,10 +1,8 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import pygame
 from main import *
 from math import radians, sqrt, sin, cos, atan2
 from random import randint
-from geopy.distance import vincenty
 
 class Bar(pygame.sprite.Sprite):
 
@@ -79,34 +77,54 @@ class City():
 
     @staticmethod
     def geocalc(current_city, destination_city):
-        return vincenty((City.List[current_city].lat, City.List[current_city].lon), (City.List[destination_city].lat, City.List[destination_city].lon)).meters / 1000
+        #print current_city, destination_city
+        lat1 = radians(float(City.List[current_city].lat))
+        lon1 = radians(float(City.List[current_city].lon))
+        lat2 = radians(float(City.List[destination_city].lat))
+        lon2 = radians(float(City.List[destination_city].lon))
+
+        dlon = lon1 - lon2
+
+        EARTH_R = 6372.8
+
+        y = sqrt(
+            (cos(lat2) * sin(dlon)) ** 2
+            + (cos(lat1) * sin(lat2) - sin(lat1) * cos(lat2) * cos(dlon)) ** 2
+            )
+        x = sin(lat1) * sin(lat2) + cos(lat1) * cos(lat2) * cos(dlon)
+        c = atan2(y, x)
+        return EARTH_R * c
+        #return vincenty((City.List[current_city].lat, City.List[current_city].lon), (City.List[destination_city].lat, City.List[destination_city].lon)).meters / 1000
 
 class Train():
     pass
 
 
 class Map(pygame.sprite.Sprite):
-
-    Image = None
-
     def __init__(self):
         pygame.sprite.Sprite.__init__(self)
         self.speed = 10
         self.keys_pressed = []
-        if not Map.Image:
-            Map.Image = pygame.image.load("res/map.png").convert()
-        self.rect = Map.Image.get_rect()
+        self.image = pygame.image.load("res/map.png").convert()
+        self.rect = self.image.get_rect()
         self.rect.topleft = (1, 1)
 
     def draw(self, screen):
-        screen.blit(Map.Image, self.rect)
+        screen.blit(self.image, self.rect)
 
-    def move(self, player):
+    def move(self, player, screen_w, screen_h):
         if player.keys_pressed[pygame.K_s]:
-            self.rect.y -= self.speed
+            print self.rect.y
+            print -self.rect.h
+            if self.rect.y > screen_h - self.rect.h + self.speed:
+                self.rect.y -= self.speed
         if player.keys_pressed[pygame.K_w]:
-            self.rect.y += self.speed
+            if self.rect.y < 0:
+                self.rect.y += self.speed
+            else:
+                self.rect.y = 0
         if player.keys_pressed[pygame.K_a]:
             self.rect.x += self.speed
         if player.keys_pressed[pygame.K_d]:
             self.rect.x -= self.speed
+        if player.keys_pressed[pygame.K_z]:
