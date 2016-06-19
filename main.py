@@ -1,6 +1,7 @@
 # -*- coding: iso-8859-2 -*-
 import pygame, sys, datetime
 import character
+import location
 from location import *
 from character import *
 
@@ -28,9 +29,6 @@ def play_game():
 
     screen = pygame.display.set_mode((screen_w, screen_h), 0, 32)
 
-    pygame.font.init()
-    font = pygame.font.Font("res/uni0563-webfont.ttf", 15)
-
     clock = pygame.time.Clock()
     fps = 60
 
@@ -38,12 +36,13 @@ def play_game():
     timer = 129600
 
     map = Map()
-    bar = Bar(0, 0, screen_w, 20)
+    menubar = MenuBar(0, 0, screen_w, 20)
     City.spawn()
     fuzz = Fuzz(600, 500)
-    agent = Player(50, 50)
+    agent = Player(380, 50)
     Character.starting_city(fuzz, agent)
-    active_city = font.render(unicode(agent.current_city, 'utf-8'), 0, (200, 200, 200))
+    City.List[agent.current_city].build()
+    agent.current_zone = City.List[agent.current_city].zones[str(agent.current_zone)]
 
     while not agent.fuzzed and fuzz.fuzzed:
         for event in pygame.event.get():
@@ -73,20 +72,19 @@ def play_game():
 
         if not agent.map_view:
             screen.fill((125,125,125))
-            bar.draw(screen)
-            screen.blit(active_city, (20,-4))
-            screen.blit(time, (screen_w - 340, -4))
-            #agent.current_city.draw_zone(screen, agent)
-            Diamond.List.update()
-            Diamond.List.draw(screen)
-
-            if fps_counter % 20 == 0 and Diamond.List:
-                for diamond in Diamond.List:
-                    diamond.spawn(screen_w, screen_h)
-
             agent.draw(screen)
+            menubar.draw(screen, agent, time)
+            #agent.current_city.draw_zone(screen, agent)
 
-            if pygame.sprite.spritecollide(agent, Diamond.List, True):
+            for zone in City.List[agent.current_city].zones.values():
+                zone.diamonds.update()
+                zone.diamonds.draw(screen)
+
+                if fps_counter % 20 == 0 and zone.diamonds:
+                    for diamond in zone.diamonds:
+                        diamond.spawn(screen_w, screen_h)
+
+            if pygame.sprite.spritecollide(agent, agent.current_zone.diamonds, True):
                 agent.collect_diamond()
 
         elif agent.map_view:

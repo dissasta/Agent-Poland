@@ -2,7 +2,6 @@ import pygame
 from main import *
 from random import randint
 from random import sample
-from geopy.distance import vincenty
 
 Blocked = pygame.sprite.Group()
 
@@ -11,11 +10,12 @@ class Diamond(pygame.sprite.Sprite):
     images = []
     List = pygame.sprite.Group()
 
-    def __init__(self, x, y, clone):
+    def __init__(self, x, y, clone, zone):
         pygame.sprite.Sprite.__init__(self)
         self.x = x
         self.y = y
         self.clone = clone
+        self.zone = zone
 
         if not Diamond.images:
             Diamond.images.append(pygame.image.load("res/diamond_spawn04.png").convert())
@@ -49,10 +49,10 @@ class Diamond(pygame.sprite.Sprite):
         self.image.set_colorkey((255, 255, 255))
         self.rect = self.image.get_rect()
         self.rect.topleft = (self.x, self.y)
-        self.List.add(self)
-
-        if len(pygame.sprite.spritecollide(self, Diamond.List, False)) > 1 or pygame.sprite.spritecollide(self, Blocked, False):
-            Diamond.List.remove(self)
+        self.zone.diamonds.add(self)
+        print self.zone.diamonds
+        if len(pygame.sprite.spritecollide(self, self.zone.diamonds, False)) > 1 or pygame.sprite.spritecollide(self, Blocked, False):
+            self.zone.diamonds.remove(self)
 
     def update(self):
         if self.clone and self.index != len(Diamond.images):
@@ -80,7 +80,7 @@ class Diamond(pygame.sprite.Sprite):
 
             try:
                 rand_zone = zones[randint(0, len(zones) - 1)]
-                Diamond(rand_zone[0], rand_zone[1], True)
+                Diamond(rand_zone[0], rand_zone[1], True, self.zone)
             except ValueError:
                 pass
 
@@ -120,6 +120,7 @@ class Character(pygame.sprite.Sprite):
         for i in distances.iteritems():
             if i[1] == furthest_city:
                 agent.current_city = i[0]
+                City.List[agent.current_city].visited = True
 
     def starting_xy(self):
         pass
@@ -135,13 +136,13 @@ class Player(Character):
         self.keys_pressed = []
         self.map_view = False
         self.current_city = None
+        self.current_zone = [0, 1]
         Character.List.add(self)
-
 
     def drop_diamond(self, screen_w, screen_h):
         x = self.rect.x + self.rect.w / 2
         y = self.rect.y + self.rect.h / 2
-        diamonds_count = len(Diamond.List)
+        diamonds_count = len(self.current_zone.diamonds)
         if self.diamonds > 0 and self.rect.x in range(self.rect.w, screen_w - self.rect.w * 2) and self.rect.y in range(self.rect.h - 10, screen_h - self.rect.h * 2 + 10):
 
             if self.keys_pressed.count(1) == 2:
@@ -158,9 +159,9 @@ class Player(Character):
                     x -= 40
                     y += 20
 
-                Diamond(x, y, False)
+                Diamond(x, y, False, self.current_zone)
 
-                if len(Diamond.List) != diamonds_count:
+                if len(self.current_zone.diamonds) != diamonds_count:
                     self.diamonds -= 1
 
             elif self.keys_pressed.count(1) == 1:
@@ -177,15 +178,16 @@ class Player(Character):
                     x -= 60
                     y -= 10
 
-                Diamond(x, y, False)
-                if len(Diamond.List) != diamonds_count:
+                Diamond(x, y, False, self.current_zone)
+                if len(self.current_zone.diamonds) != diamonds_count:
                     self.diamonds -= 1
 
     def move(self):
         if self.keys_pressed[pygame.K_s]:
             self.rect.y += self.speed
         if self.keys_pressed[pygame.K_w]:
-            self.rect.y -= self.speed
+            if not pygame.sprite.spritecollide(self, location.Blocked, False):
+               self.rect.y -= self.speed
         if self.keys_pressed[pygame.K_a]:
             self.rect.x -= self.speed
         if self.keys_pressed[pygame.K_d]:
