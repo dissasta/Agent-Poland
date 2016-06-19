@@ -41,8 +41,8 @@ def play_game():
     fuzz = Fuzz(600, 500)
     agent = Player(380, 50)
     Character.starting_city(fuzz, agent)
-    City.List[agent.current_city].build()
-    agent.current_zone = City.List[agent.current_city].zones[str(agent.current_zone)]
+    agent.current_city.build()
+    agent.current_zone = agent.current_city.zones[str(agent.current_zone)]
 
     while not agent.fuzzed and fuzz.fuzzed:
         for event in pygame.event.get():
@@ -59,8 +59,9 @@ def play_game():
                     agent.map_view = False
 
         agent.keys_pressed = pygame.key.get_pressed()
+
         if not agent.map_view:
-            agent.move()
+            agent.move(screen_w, screen_h)
         elif agent.map_view:
             map.move(agent, screen_w, screen_h)
 
@@ -70,19 +71,22 @@ def play_game():
             timer += 1
             time = font.render(current_time(timer), 0, (200, 200, 200))
 
+        for zone in agent.current_city.zones.values():
+            zone.diamonds.update()
+
+            if fps_counter % 60 == 0 and zone.diamonds:
+                for diamond in zone.diamonds:
+                    diamond.spawn(screen_w, screen_h)
+
         if not agent.map_view:
             screen.fill((125,125,125))
             agent.draw(screen)
             menubar.draw(screen, agent, time)
-            #agent.current_city.draw_zone(screen, agent)
 
-            for zone in City.List[agent.current_city].zones.values():
-                zone.diamonds.update()
-                zone.diamonds.draw(screen)
+            agent.current_zone.diamonds.draw(screen)
 
-                if fps_counter % 20 == 0 and zone.diamonds:
-                    for diamond in zone.diamonds:
-                        diamond.spawn(screen_w, screen_h)
+            for item in agent.current_zone.blocked:
+                item.draw(screen)
 
             if pygame.sprite.spritecollide(agent, agent.current_zone.diamonds, True):
                 agent.collect_diamond()

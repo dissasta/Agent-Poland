@@ -21,7 +21,7 @@ class MenuBar(pygame.sprite.Sprite):
 
     def draw(self, screen, agent, time):
         pygame.draw.rect(screen, (0,0,0), (self.rect.x, self.rect.y, self.rect.w, self.rect.h))
-        active_city = font.render(unicode(agent.current_city, 'utf-8'), 0, (200, 200, 200))
+        active_city = font.render(unicode(agent.current_city.name, 'utf-8'), 0, (200, 200, 200))
         agent_diamonds = font.render(str(agent.diamonds), 0, (200, 200, 200))
         screen.blit(active_city, (20,-4))
         screen.blit(time, (280, -4))
@@ -39,9 +39,28 @@ class Zone():
     def spawn(self):
         pass
 
+class Wall(pygame.sprite.Sprite):
+    def __init__(self, x, y, w, h, zone):
+        pygame.sprite.Sprite.__init__(self, zone.blocked)
+        self.rect = pygame.Rect(x, y, w, h)
+
+    @staticmethod
+    def spawn_core(zone):
+        Wall(0, 20, 4, 200, zone) #left top
+        Wall(0, 380, 4, 220, zone) #left bottom
+        Wall(796, 20, 4, 200, zone) #left top
+        Wall(796, 380, 4, 220, zone) #left bottom
+        Wall(0, 20, 320, 4, zone) #top lef
+        Wall(480, 20, 320, 4, zone) #top right
+        Wall(0, 596, 320, 4, zone) #bottom left
+        Wall(480, 596, 320, 4, zone) #bottom right
+
+    def draw(self, screen):
+        pygame.draw.rect(screen, (255,255,255), (self.rect.x, self.rect.y, self.rect.w, self.rect.h))
+
 class City():
 
-    List = {}
+    List = []
 
     def __init__(self, name, lon, lat, state, size, population):
         self.name = name
@@ -56,12 +75,12 @@ class City():
         self.zones = {}
         self.visited = False
         self.fuzzed = False
-        self.List[self.name] = self
+        self.List.append(self)
 
     def build(self):
         self.create_layout()
         self.generate_zones()
-        #self.generate_walls()
+        self.generate_walls()
         #self.populate_zones()
 
     def create_layout(self):
@@ -103,17 +122,20 @@ class City():
 
     def generate_zones(self):
         lay = 0
-        zone = 0
         for layer in self.layout:
+            zon = 0
             for zone in layer:
                 if zone:
-                    Zone([lay, zone], self)
-                zone += 1
+                    Zone([lay, zon], self)
+                zon += 1
             lay += 1
+        for i in self.layout:
+            print i
 
-    def draw_zone(self, screen, player):
-        for obj in player.current_zone:
-            obj.draw(screen)
+    def generate_walls(self):
+        for zone in self.zones.itervalues():
+            Wall.spawn_core(zone)
+            
 
     @staticmethod
     def spawn():
@@ -137,10 +159,10 @@ class City():
     @staticmethod
     def geocalc(current_city, destination_city):
         #print current_city, destination_city
-        lat1 = radians(float(City.List[current_city].lat))
-        lon1 = radians(float(City.List[current_city].lon))
-        lat2 = radians(float(City.List[destination_city].lat))
-        lon2 = radians(float(City.List[destination_city].lon))
+        lat1 = radians(float(current_city.lat))
+        lon1 = radians(float(current_city.lon))
+        lat2 = radians(float(destination_city.lat))
+        lon2 = radians(float(destination_city.lon))
 
         dlon = lon1 - lon2
 

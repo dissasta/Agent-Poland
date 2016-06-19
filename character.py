@@ -50,8 +50,8 @@ class Diamond(pygame.sprite.Sprite):
         self.rect = self.image.get_rect()
         self.rect.topleft = (self.x, self.y)
         self.zone.diamonds.add(self)
-        print self.zone.diamonds
-        if len(pygame.sprite.spritecollide(self, self.zone.diamonds, False)) > 1 or pygame.sprite.spritecollide(self, Blocked, False):
+
+        if len(pygame.sprite.spritecollide(self, self.zone.diamonds, False)) > 1 or pygame.sprite.spritecollide(self, Blocked, False) or pygame.sprite.spritecollide(self, self.zone.blocked, False):
             self.zone.diamonds.remove(self)
 
     def update(self):
@@ -89,7 +89,7 @@ class Character(pygame.sprite.Sprite):
     List = pygame.sprite.Group()
 
     def __init__(self, x, y, w, h):
-        pygame.sprite.Sprite.__init__(self, Blocked)
+        pygame.sprite.Sprite.__init__(self)
         self.w = w
         self.h = h
         self.speed = 3
@@ -120,7 +120,7 @@ class Character(pygame.sprite.Sprite):
         for i in distances.iteritems():
             if i[1] == furthest_city:
                 agent.current_city = i[0]
-                City.List[agent.current_city].visited = True
+                agent.current_city.visited = True
 
     def starting_xy(self):
         pass
@@ -137,7 +137,7 @@ class Player(Character):
         self.map_view = False
         self.current_city = None
         self.current_zone = [0, 1]
-        Character.List.add(self)
+        Blocked.add(self)
 
     def drop_diamond(self, screen_w, screen_h):
         x = self.rect.x + self.rect.w / 2
@@ -182,16 +182,60 @@ class Player(Character):
                 if len(self.current_zone.diamonds) != diamonds_count:
                     self.diamonds -= 1
 
-    def move(self):
+    def move(self, screen_w, screen_h):
         if self.keys_pressed[pygame.K_s]:
             self.rect.y += self.speed
+            if pygame.sprite.spritecollide(self, self.current_zone.blocked, False):
+                self.rect.y -= self.speed
+
         if self.keys_pressed[pygame.K_w]:
-            if not pygame.sprite.spritecollide(self, location.Blocked, False):
-               self.rect.y -= self.speed
+            self.rect.y -= self.speed
+            if pygame.sprite.spritecollide(self, self.current_zone.blocked, False):
+               self.rect.y += self.speed
+
         if self.keys_pressed[pygame.K_a]:
             self.rect.x -= self.speed
+            if pygame.sprite.spritecollide(self, self.current_zone.blocked, False):
+                self.rect.x += self.speed
+
         if self.keys_pressed[pygame.K_d]:
             self.rect.x += self.speed
+            if pygame.sprite.spritecollide(self, self.current_zone.blocked, False):
+                self.rect.x -= self.speed
+
+        direction = None
+
+        if self.rect.y < 20 - self.rect.h:
+            direction = 'N'
+        if self.rect.y > screen_h:
+            direction = 'S'
+        if self.rect.x < 0 - self.rect.w:
+            direction = 'W'
+        if self.rect.x > screen_w:
+            direction = 'E'
+
+        self.teleport(direction, screen_w, screen_h)
+
+    def teleport(self, direction, screen_w, screen_h):
+        if not direction:
+            pass
+
+        else:
+            lay = self.current_zone.id[0]
+            zon = self.current_zone.id[1]
+            print lay, zon
+            if direction == "N":
+                self.current_zone = self.current_city.zones[str([lay - 1, zon])]
+                self.rect.y = screen_h - 1
+            elif direction == "S":
+                self.current_zone = self.current_city.zones[str([lay + 1, zon])]
+                self.rect.y = 1 - self.rect.h / 2
+            elif direction == 'W':
+                self.current_zone = self.current_city.zones[str([lay, zon - 1])]
+                self.rect.x = screen_w - 1
+            elif direction == 'E':
+                self.current_zone = self.current_city.zones[str([lay, zon + 1])]
+                self.rect.x = 1 - self.rect.w
 
 class Wanderer(Character):
 
